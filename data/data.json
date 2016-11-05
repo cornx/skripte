@@ -14,4 +14,8 @@
     "primjer": "<a href='tabulator/index.html'>Tabulator.js</a>",
     "link_projekt": "<a href='http://olifolkerd.github.io/tabulator/'>link na projekt</a>",
     "ostalo": "<a href='tabulator/json-primjer.html'>primjer s JSON-om</a> - ova tablica je rađena u tabulatoru"
+}, {
+    "primjer": "<a href='kalendar/index.html'>Kalendar</a>",
+    "link_projekt": "<a href='https://github.com/niklasvh/html2canvas'>HTML2Canvas.js</a> | <a href='http://introjs.com/'>intro.js</a></a>",
+    "ostalo": "u ovom projektu uz moj kod su korišteni HTML2Canvas.js, keyboards.js i intro.js skripte"
 }]
