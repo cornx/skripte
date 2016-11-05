@@ -13,7 +13,7 @@
 }, {
     "primjer": "<a href='tabulator/index.html'>Tabulator.js</a>",
     "link_projekt": "<a href='http://olifolkerd.github.io/tabulator/'>link na projekt</a>",
-    "ostalo": "<a href='tabulator/json-primjer.html'>primjer s JSON-om</a> - ova tablica je rađena u tabulatoru"
+    "ostalo": "<a href='tabulator/json-primjer.html'>primjer s JSON-om</a> - ova tablica je rađena u tabulatoru | <a href='https://www.sitepoint.com/dynamic-tables-json/?utm_source=javascriptweekly&utm_medium=email'>upute s JSON-om</a>"
 }, {
     "primjer": "<a href='kalendar/index.html'>Kalendar</a>",
     "link_projekt": "<a href='https://github.com/niklasvh/html2canvas'>HTML2Canvas.js</a>, <a href='http://introjs.com/'>intro.js</a></a>",
