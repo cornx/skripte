@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Baffle.js</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .container {
+            padding-top: 40px
+        }
+        
+        .card {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <h2 class="text-primary">Baffle.js</h2>
+    <p>Klikom na button tekst se enkriptira</p>
+    <div class="card col-sm-6 col-xs-12 card-outline-success">
+        <img class="card-img-top img-fluid" src="img/ja.jpg" alt="Card image cap">
+        <div class="card-block">
+            <h4 class="card-title text-danger">Danijel Gavranović</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-danger col-xs-4" id="encrypt">encrypt</a>
+            <a href="#" class="btn btn-success col-xs-4" id="decrypt">decrypt</a>
+            <a href="#" class="btn btn-primary col-xs-4" id="reverse">reverse</a>
+        </div>
+    </div>
+
+    <script src="js/baffle.min.js" type="text/javascript"></script>
+    <script>
+        var encrypt = document.getElementById("encrypt"),
+            decrypt = document.getElementById("decrypt"),
+            reverse = document.getElementById("reverse"),
+            tekst = ".card-title, .card-text";
+
+
+        let b = baffle(tekst, {
+            /*characters: 'AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz~!@#$%^&*()-+=[]{}|;:,./<>?█▓▒░█▓▒░█▓▒░<>/',*/
+            characters: '~#^*|/█▓▒░█▓▒░█▓▒░',
+            speed: 75
+        });
+        encrypt.addEventListener("click", function() {
+            b.once();
+        });
+        decrypt.addEventListener("click", function() {
+            b.reveal(1000);
+        });
+        // reverse.addEventListener("click", function(){b.start();});
+    </script>
+</body>
+
+</html>

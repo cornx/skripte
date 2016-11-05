@@ -1,0 +1,14 @@
+{
+  "name": "svg",
+  "homepage": "https://github.com/cornx/svg",
+  "_release": "acc77cae12",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "acc77cae1251fa4240578fe8112720aa1a6aadf9"
+  },
+  "_source": "https://github.com/cornx/svg.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/cornx/svg.git",
+  "_direct": true
+}

@@ -1,0 +1,76 @@
+  [{
+      "naziv": "Stari grad Pag",
+      "kategorija": "Spomenici",
+      "slika": "stari_grad",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Gradske zidine",
+      "kategorija": "Spomenici",
+      "slika": "zidine",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Most Katine",
+      "kategorija": "Znamenitosti",
+      "slika": "most",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Kula Skrivanat",
+      "kategorija": "Spomenici",
+      "slika": "kula",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Kula Kamerlengo",
+      "kategorija": "Spomenici",
+      "slika": "kamerlengo",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Magazini soli",
+      "kategorija": "Spomenici",
+      "slika": "magazini_soli",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Samostan Sv. Margarite",
+      "kategorija": "Samostani",
+      "slika": "arhitektura",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Crkva Sv. Juraj",
+      "kategorija": "Crkve",
+      "slika": "sv_juraj",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Crkva Marijinog Uznesenja",
+      "kategorija": "Crkve",
+      "slika": "zborna_crkva",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Crkva Sv. Frane",
+      "kategorija": "Crkve",
+      "slika": "sv_frane",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Crkva Sv. Nikole",
+      "kategorija": "Crkve",
+      "slika": "sv_nikola",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Knežev Dvor",
+      "kategorija": "Spomenici",
+      "slika": "knezev_dvor",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "15. Merdijan",
+      "kategorija": "Znamenitosti",
+      "slika": "15_meridijan",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Vidikovac Gradac",
+      "kategorija": "Ostalo",
+      "slika": "gradac",
+      "opis": "lorem ipsum sit dolor amet"
+  }, {
+      "naziv": "Vrh Sv. Vid",
+      "kategorija": "Ostalo",
+      "slika": "sv_vid",
+      "opis": "lorem ipsum sit dolor amet"
+  }]
