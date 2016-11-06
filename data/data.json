@@ -9,7 +9,7 @@
 }, {
     "primjer": "<a href='svg/index.html'>SVG - animacije</a>",
     "link_projekt": "<a href='https://maxwellito.github.io/vivus/'>Vivus.js (svg)</a>",
-    "ostalo": "niz primjera s animacijama SVG-a | <a href='http://tympanus.net/Development/AnimatedLetters/'>još primjera sa slovima (SVG)</a> | <a href='svg-test.html'>SVG zastave</a>"
+    "ostalo": "niz primjera s animacijama SVG-a | <a href='http://tympanus.net/Development/AnimatedLetters/'>još primjera sa slovima (SVG)</a> | <a href='svg/svg-test.html'>SVG zastave</a>"
 }, {
     "primjer": "<a href='tabulator/index.html'>Tabulator.js</a>",
     "link_projekt": "<a href='http://olifolkerd.github.io/tabulator/'>link na projekt</a>",
