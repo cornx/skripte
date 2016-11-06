@@ -34,8 +34,14 @@
             float: left;
         }
         
-        #japan, #poljska, #austrija, #vatika, #italija, #irska {
-            margin-top: 10px
+        @media screen and (max-width: 768px){
+            #japan, #poljska, #austrija, #vatikan, #italija, #irska {
+                 margin-top: 10px
+            }
+        }
+        
+        #vatikan-grb {
+            border: 1px solid #000
         }
     </style>
 </head>
@@ -66,9 +72,20 @@
         <div class="col-xs-12 col-sm-6 col-md-4">
             <svg id="vatikan">
                 <rect width="50%" height="100%" style="fill:#ffe200"></rect>
-                <rect width="50%" height="100%" style="fill:white" x="50%"></rect>
+
+                <rect width="50%" height="100%" style="fill:white" x="50%">
+                </rect>
+                <svg x="55%" y="10%" height="150" width="150" id="vatikan-grb">
+                    <pattern id="grb" patternUnits="userSpaceOnUse" width="150" height="150">
+                        <image xlink:href="img/vatikan_grb.svg" width="150" height="150"></image>
+                    </pattern>
+                    <rect width="150" height="150" fill="url(#grb)"></rect>
+                </svg>
             </svg>
         </div>
+
+
+
         <div class="col-xs-12 col-sm-6 col-md-4">
             <svg id="italija" width="100%">
                 <rect width="34%" height="100%" style="fill:red" x="0%"></rect>
