@@ -1,0 +1,86 @@
+* {
+    font-family: sans-serif;
+    /*box-sizing: border-box*/
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.tutorijal-3-4 {
+    padding: 20px;
+}
+
+.main-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.main-nav li {
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.main-nav li a {
+    text-decoration: none;
+    width: 130px;
+    margin-right: 4px;
+    display: block;
+    font-size: 16px;
+}
+
+
+/*.main-nav li a:hover {
+    transition: all 1.5s;
+    background: #e2ff00;
+        
+}*/
+
+.main-nav li a::before,
+.main-nav li a::after {
+    transition: all .25s;
+    opacity: 0;
+    position: relative;
+    top: -2px;
+}
+
+.main-nav li a::before {
+    content: "[";
+    margin-right: -4px;
+}
+
+.main-nav li a::after {
+    content: "]";
+    margin-left: -4px;
+}
+
+.main-nav li a:hover::before {
+    opacity: 1;
+    margin-right: 6px;
+}
+
+.main-nav li a:hover::after {
+    opacity: 1;
+    margin-left: 6px;
+}
+.zeleni:hover {
+    transition: all .5s;
+    opacity: 0.8;
+}
+
+.zeleni{
+    padding: 10px 20px;
+    font-size: 20px;
+    background: green;
+    color: white;
+    margin: 39px;
+    position: relative;
+    float: left;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
