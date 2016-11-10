@@ -22,4 +22,8 @@
     "primjer": "Hue.css",
     "link_projekt": "<a href='http://evankarageorgos.github.io/hue/'>HUE.css</a>",
     "ostalo": "CSS library sa 49 različitih gradijent pozadina - <a href='https://www.behance.net/gallery/30067997/Hue-Free-Promo-Backdrops-and-Gradients'>prikaz svih (jpg)</a>"
+}, {
+    "primjer": "Anime.js",
+    "link_projekt": "<a href='http://anime-js.com/'>anime.js</a>",
+    "ostalo": "JS library za animiranje elemenata; jednostavna implementacija - <a href='https://www.sitepoint.com/animating-the-dom-with-anime-js/'>tutorijal na SitePintu</a>"
 }]
