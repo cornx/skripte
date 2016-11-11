@@ -20,5 +20,3 @@ $("#moja-tablica").tabulator({
 
 
 $("#moja-tablica").tabulator("setData", "data/data.json");
-
-

@@ -4,13 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Events</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/test.css">
+
 </head>
 
 <body class="container">
     <div class="row">
-        <h4 class="naslov">onblur i onfocus</h4>
+        <h3 class="naslov">onblur i onfocus</h3>
         <p><b>onfocus</b> - kad se klikne ne pojedini input, onda se izbriše placeholder (upiši ime / upiši prezime)</p>
         <p><b>onblur</b> - ako se ne napiše ništa u input, onda se vrati placeholder (upiši ime / upiši prezime) prilikom napuštanja inputa</p>
         <p>klikom na <b>Pošalji</b>, ispisuju se input vrijednosti ispod</p>
@@ -48,7 +52,6 @@
         <div class="col-xs-3"></div>
     </div>
     <!-- row -->
-
     <script>
         var ime = document.getElementById("ime"),
             prezime = document.getElementById("prezime"),
@@ -81,6 +84,12 @@
             }
         };
         upis(ime, prezime);
+
+
+        // dodavanje home buttona kraj naslova
+        var naslov = document.querySelector("h3.naslov"),
+            home = "<a href='index.html'><i class='fa fa-home'></i></a>";
+        naslov.innerHTML = home + " " + naslov.textContent;
     </script>
 </body>
 

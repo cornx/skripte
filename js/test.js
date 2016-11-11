@@ -48,3 +48,9 @@ slajder.onclick = function() {
     clearInterval(interval);
     document.querySelector(".upute").innerHTML = "Slider zaustavljen";
 }
+
+// dodavanje home buttona kraj naslova
+var naslov = document.querySelector("h3.naslov"),
+    home = "<a href='index.html'><i class='fa fa-home'></i></a>";
+naslov.innerHTML = home + " " + naslov.textContent;
+
