@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test stranica</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body class="container">
+    <h3 class="naslov">setInterval i setTimeout</h3>
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+            <h4 class="naslov">setTimeout</h4>
+            <p>kvadrat ispod će nakon 3 sekunde promjeniti boju (i ostat te boje)</p>
+            <div class="kvadrat" id="kvadrat1">0</div>
+        </div>
+        <div class="col-sm-6 col-xs-12" >
+            <h4 class="naslov">setInterval</h4>
+            <p>kvadrat ispod će mjenjati boju nakon 2 sekunde</p>
+            <div class="kvadrat" id="kvadrat2">0</div>
+        </div>
+    </div>
+    <!-- row -->
+    <div class="row">
+        <p>Slider koji mjenja slike svakih 3 sekunde</p>
+    </div>
+    <!-- row -->
+    <div class="row">
+       <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+            <img class="img-thumbnail" src="img/001.jpg" id="slajder">
+        </div>
+       <div class="col-xs-3"></div>
+    </div>
+    <script src="js/test.js" type="text/javascript"></script>
+</body>
+
+</html>
