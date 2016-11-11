@@ -1,0 +1,25 @@
+ body {
+     margin-top: 40px;
+ }
+ 
+ .card {
+     padding: 0;
+ }
+ 
+ .opis {
+     font-size: 15px;
+     font-style: italic;
+ }
+ 
+ .kategorija {
+     font-weight: bold;
+ }
+ 
+ .naslov {
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 5px;
+     color: red
+ }
+.zelena_slova {
+    color: green
+}

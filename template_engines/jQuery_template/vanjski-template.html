@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vanjski template | jQuery template</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.loadTemplate.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $("document").ready(function() {
+            $("#predlozak").loadTemplate("data/template.html", [{
+                "slika": "<img class='card-img-top img-fluid' src='../../img/001.jpg'>",
+                "naslov": "Gitare",
+                "kategorija": "city life",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }, {
+                "slika": "<img class='card-img-top img-fluid' src='../../img/002.jpg'>",
+                "naslov": "Ljubičasta apstrakcija",
+                "kategorija": "abstract",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }, {
+                "slika": "<img class='card-img-top img-fluid' src='../../img/003.jpg'>",
+                "naslov": "Zalazak sunca",
+                "kategorija": "nature",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }, {
+                "slika": "<img class='card-img-top img-fluid' src='../../img/004.jpg'>",
+                "naslov": "Ulični nogomet",
+                "kategorija": "sports",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }, {
+                "slika": "<img class='card-img-top img-fluid' src='../../img/005.jpg'>",
+                "naslov": "Elektronika",
+                "kategorija": "elektronika",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }, {
+                "slika": "<img class='card-img-top img-fluid' src='../../img/006.jpg'>",
+                "naslov": "San Francisco",
+                "kategorija": "city life",
+                "opis": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nihil soluta exercitationem repellat eius officiis quis"
+            }], {
+                isFile: true
+            });
+        });
+    </script>
+</head>
+
+<body class="container">
+
+    <h3>Vanjski template - jQuery Templates</h3>
+    <p><a href="index.html"> &lt; natrag</a>&emsp;|&emsp;ovaj primjer je identičan prethodnom, samo što povlači template iz druge HTML datoteke (<a href="data/template.html">data/template.html</a>) i dodaje <a href="js/script.js">template formatter</a> na naslov (toUpperCase)</p>
+
+    <div id="predlozak"></div>
+    <!-- ovdje se prikazuje template -->
+
+</body>
+
+</html>

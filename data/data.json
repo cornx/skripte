@@ -26,4 +26,8 @@
     "primjer": "Anime.js",
     "link_projekt": "<a href='http://anime-js.com/'>anime.js</a>",
     "ostalo": "JS library za animiranje elemenata; jednostavna implementacija - <a href='https://www.sitepoint.com/animating-the-dom-with-anime-js/'>tutorijal na SitePintu</a>"
+}, {
+    "primjer": "Dust.js",
+    "link_projekt": "<a href='http://akdubya.github.io/dustjs/'>dust.js</a>",
+    "ostalo": "JavaScript templateing engine - slično kao i <a href='https://github.com/janl/mustache.js'>Mustache</a>"
 }]
