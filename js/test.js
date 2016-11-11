@@ -4,7 +4,7 @@ var k1 = document.getElementById("kvadrat1"),
     slider = document.querySelector("#slajder"),
     i = 0,
     n = 0,
-    s = 0;  // counter za svaki element, jer nastaju problemi radi resetiranja ako je svima isti
+    s = 0; // counter za svaki element, jer nastaju problemi radi resetiranja ako je svima isti
 
 
 // update broj
@@ -34,7 +34,7 @@ setInterval(k2MjenjaBoju, 2000);
 
 // slider
 var sliderr = function() {
-    var slika = ["img/001.jpg", "img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg"];
+    var slika = ["img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg", "img/001.jpg"];
     slider.setAttribute("src", slika[s]);
     s++;
     if (s >= slika.length) {
