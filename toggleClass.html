@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Toggle class</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+    <style>
+        .pravokutnik {
+            width: 300px;
+            height: 300px;
+            background: #ccc;
+            position: relative;
+            float: left;
+            border-radius: 5px;
+        }
+        
+        .zeleni {
+            width: 300px;
+            height: 300px;
+            background: #0c8002;
+            position: relative;
+            float: left
+        }
+        
+        .pravokutnik2 {
+            width: 300px;
+            height: 300px;
+            border: 1px dashed #000;
+            border-radius: 5px;
+        }
+        
+        .crveni {
+            background: red;
+        }
+        
+        .sivi {
+            background: #333232;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <h3 class="naslov">toggle class (className i classList)</h3>
+    <div class="col-xs-6">
+        <h4 class="naslov">Pravokutnik 1</h4>
+        <p>klikom na kvadrat mjenja se boja - korišten <b>className</b></p>
+        <div class="pravokutnik" id="p1"></div>
+
+    </div>
+    <div class="col-xs-6">
+        <h4 class="naslov">Pravokutnik 2</h4>
+        <p>klikom na kvadrat mjenja se boja - korišten <b>classList</b></p>
+        <div class="pravokutnik2" id="p2"></div>
+    </div>
+    <script>
+        var p1 = document.querySelector("#p1"),
+            p2 = document.querySelector("#p2");
+
+
+        p1.onclick = function() {
+            if (p1.className == "pravokutnik") {
+                p1.className = "";
+                p1.className = "zeleni";
+            } else if (p1.className == "zeleni") {
+                p1.className = "";
+                p1.className = "pravokutnik";
+            }
+        };
+        p2.addEventListener("click", function() {
+            if (p2.classList == "pravokutnik2") {
+                p2.classList += " crveni";
+            } else if (p2.classList == "pravokutnik2 crveni") {
+                p2.classList = "pravokutnik2";
+            }
+        });
+    </script>
+</body>
+</html>
