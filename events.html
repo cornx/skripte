@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Events</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body class="container">
+    <div class="row">
+        <h4 class="naslov">onblur i onfocus</h4>
+        <p>onfocus - kad se klikne ne pojedini input, onda se izbriše placeholder (upiši ime / upiši prezime)</p>
+        <p>onblur - ako se ne napiše ništa u input, onda se vrati placeholder (upiši ime / upiši prezime) prilikom napuštanja inputa</p>
+        <p>klikom na Pošalji, ispisuju se input vrijednosti ispod</p>
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+            <table>
+                <tr>
+                    <td>Ime: </td>
+                    <td>
+                        <input type="text" id="ime" value="Upiši ime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Prezime: </td>
+                    <td>
+                        <input type="text" id="prezime" value="Upiši prezime">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button id="posalji" class="btn btn-primary float-xs-right">Pošalji</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="col-xs-3"></div>
+    </div>
+    <!-- row -->
+    <div class="row">
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+            <p id="ispis"></p>
+        </div>
+        <div class="col-xs-3"></div>
+    </div>
+    <!-- row -->
+
+    <script>
+        var ime = document.getElementById("ime"),
+            prezime = document.getElementById("prezime"),
+            ispis = document.getElementById("ispis"),
+            btn = document.getElementById("posalji");
+
+        var upis = function(e, i) {
+            e.onfocus = function() {
+                if (this.value !== "") {
+                    this.value = "";
+                }
+            }
+            e.onblur = function() {
+                if (this.value == "") {
+                    this.value = "Upiši ime";
+                }
+            }
+            i.onfocus = function() {
+                if (this.value !== "") {
+                    this.value = "";
+                }
+            }
+            i.onblur = function() {
+                if (this.value == "") {
+                    this.value = "Upiši prezime";
+                }
+            }
+            btn.onclick = function() {
+                ispis.innerHTML = "Ime: " + e.value + "<br>Prezime: " + i.value;
+            }
+        };
+        upis(ime, prezime);
+    </script>
+</body>
+
+</html>

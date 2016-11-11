@@ -18,3 +18,5 @@ body {
 	margin-bottom: 20px;
     font-family: monospace
 }
+input {margin-left: 10px;}
+.btn {margin-top: 10px;}
