@@ -1,7 +1,7 @@
 var k1 = document.getElementById("kvadrat1"),
     k2 = document.getElementById("kvadrat2"),
     br = document.querySelector(".kvadrat"),
-    slider = document.querySelector("#slajder"),
+    slajder = document.querySelector("#slajder"),
     i = 0,
     n = 0,
     s = 0; // counter za svaki element, jer nastaju problemi radi resetiranja ako je svima isti
@@ -33,12 +33,18 @@ var k2MjenjaBoju = function() {
 setInterval(k2MjenjaBoju, 2000);
 
 // slider
-var sliderr = function() {
+var slider = function() {
     var slika = ["img/002.jpg", "img/003.jpg", "img/004.jpg", "img/005.jpg", "img/006.jpg", "img/001.jpg"];
-    slider.setAttribute("src", slika[s]);
+    slajder.setAttribute("src", slika[s]);
     s++;
     if (s >= slika.length) {
         s = 0;
     }
 };
-setInterval(sliderr, 3000);
+var interval = setInterval(slider, 3000);
+
+// zaustavljanje intervala klikom na sliku
+slajder.onclick = function() {
+    clearInterval(interval);
+    document.querySelector(".upute").innerHTML = "Slider zaustavljen";
+}
