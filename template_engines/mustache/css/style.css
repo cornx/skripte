@@ -4,8 +4,13 @@
  
  .card {
      padding: 0;
+     height: 500px
  }
- 
+@media screen and (max-width:595px){
+    .card{
+        height: auto;
+    }
+}
  .opis {
      font-size: 15px;
      font-style: italic;
@@ -47,6 +52,7 @@
     font-weight: bold;
     color: #fff; 
     padding: 0 5px;
+    margin-top: 5px;
     font-size: 15px;
 }
 .puno {background: green}

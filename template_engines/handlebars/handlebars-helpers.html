@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Handlebars.js</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../mustache/css/style.css">
+    <script src="../jQuery_template/js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/handlebars-v4.0.5.js" type="text/javascript"></script>
+    <!--<script src="js/handlebars.runtime-v4.0.5.js" type="text/javascript"></script>-->
+    <script src="js/script2.js" type="text/javascript"></script>
+</head>
+
+<body class="container">
+    <h3 class="naslov">Handlebars.js | helpers</h3>
+    <p><a href="index.html">&lt; natrag</a>&emsp;|&emsp;<a href="handlebars-conditionals.html">handlebars-conditionals</a></p>
+
+    <script type="text/x-handlebars-template" id="kartica">
+       {{#each daske}}
+        <div class="card col-xs-12 col-md-4 col-sm-6">
+            <img src="{{slika}}" class="card-img-top img-fluid">
+            <div class="card-block">
+                <h4 class="naslov_kartice">{{proizvod}}
+                {{#if skater}}<span class="autor">{{skater}}</span>
+                    {{else}}<span class="autor col-xs-4">skater nepoznat</span>{{/if}}</h4>
+                <div class="kategorija">Stanje: {{stanje}}</div>
+                <div class="opis">{{opis}}</div>
+                {{#with podatci}}
+                <div class="godina">Cijena: {{cijena}} kn</div>
+                 {{#if zalihe}}
+                <div class="zalihe puno">{{kolicina}} kom.</div>{{else}}
+                <div class="zalihe prazno">nema na zalihama</div>
+                {{/if}} 
+                {{/with}}
+            </div>
+        </div>
+        {{/each}}
+    </script>
+
+    <div id="predlozak"></div>
+</body>
+
+</html>

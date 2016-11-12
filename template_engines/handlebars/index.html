@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Handlebars.js</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../mustache/css/style.css">
+    <script src="../jQuery_template/js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/handlebars-v4.0.5.js" type="text/javascript"></script>
+    <!--<script src="js/handlebars.runtime-v4.0.5.js" type="text/javascript"></script>-->
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body class="container">
+    <h3 class="naslov">Handlebars.js</h3>
+    <p>izvor: <a href="http://handlebarsjs.com/">handlebarsjs.com</a>&emsp;|&emsp;<a href="handlebars-conditionals.html">handlebars-conditionals</a>&emsp;|&emsp;sličan primjeru <a href="../mustache/mustache-conditional.html">mustache-conditional.html</a> jedino što ne funkcioniraju conditionals na isti način ({{^autor}})</p>
+
+    <script type="text/x-handlebars-template" id="kartica">
+        {{#fotografije}}
+        <div class="card col-xs-12 col-md-4 col-sm-6">
+            <img src="{{slika}}" class="card-img-top img-fluid">
+            <div class="card-block">
+                <h4 class="naslov_kartice">{{naslov}}
+                {{#autor}}<span class="autor">{{autor}}</span>{{/autor}}
+                    {{^autor}}<span class="autor col-xs-4">autor nepoznat</span>{{/autor}}</h4>
+                <div class="kategorija">{{kategorija}}</div>
+                <div class="opis">{{opis}}</div>
+                {{#godina}}
+                <div class="godina">Godina: {{godina}}</div>
+                {{/godina}} {{^godina}}
+                <div class="godina">Godina nepoznata</div>
+                {{/godina}} {{#zalihe}}
+                <div class="zalihe puno">dostupno</div>{{/zalihe}} {{^zalihe}}
+                <div class="zalihe prazno">nije dostupno</div>{{/zalihe}}
+            </div>
+        </div>
+        {{/fotografije}}
+    </script>
+
+    <div id="predlozak"></div>
+    <script>
+        // dodavanje home buttona kraj naslova
+        var naslov = document.querySelector("h3.naslov"),
+            home = "<a href='../../index.html'><i class='fa fa-home'></i></a>";
+        naslov.innerHTML = home + " " + naslov.textContent;
+    </script>
+</body>
+
+</html>
