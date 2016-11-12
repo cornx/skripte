@@ -1,0 +1,19 @@
+ {{#fotografije}}
+        <div class="card col-xs-12 col-md-4 col-sm-6">
+            <img src="{{slika}}" class="card-img-top img-fluid">
+            <div class="card-block">
+                <h4 class="naslov_kartice">{{naslov}}
+                {{#autor}}<span class="autor">{{autor}}</span>{{/autor}}
+                    {{^autor}}<span class="autor col-xs-4">autor nepoznat</span>{{/autor}}</h4>
+                <div class="kategorija">{{kategorija}}</div>
+                <div class="opis">{{opis}}</div>
+                {{#godina}}
+                <div class="godina">Godina: {{godina}}</div>
+                {{/godina}} {{^godina}}
+                <div class="godina">Godina nepoznata</div>
+                {{/godina}} {{#zalihe}}
+                <div class="zalihe puno">dostupno</div>{{/zalihe}} {{^zalihe}}
+                <div class="zalihe prazno">nije dostupno</div>{{/zalihe}}
+            </div>
+        </div>
+{{/fotografije}}

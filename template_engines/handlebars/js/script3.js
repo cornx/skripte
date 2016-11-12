@@ -1,5 +1,7 @@
-// skripta za handlebars-functions.html
+// skripta za handlebars-precompiled.html
 $("document").ready(function() {
+
+    var renderer = Handlebars.templates["precomp"];
     // custom helper
     Handlebars.registerHelper("kolicinaUpozorenje", function(podatciProizvoda) {
         if (podatciProizvoda.zalihe == false && podatciProizvoda.kolicina > 1) {
@@ -11,10 +13,7 @@ $("document").ready(function() {
         }
     });
 
-    var template = $("#kartica").html();
-
     // handlebars compiles the template into callable function
-    var renderer = Handlebars.compile(template);
     var skateboard_shop = renderer({
         "daske": [{
             "proizvod": "Zero",

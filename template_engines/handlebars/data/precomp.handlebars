@@ -1,0 +1,20 @@
+       {{#each daske}}
+        <div class="card col-xs-12 col-md-4 col-sm-6">
+            <img src="{{slika}}" class="card-img-top img-fluid">
+            <div class="card-block">
+                <h4 class="naslov_kartice">{{proizvod}}
+                {{#if skater}}<span class="autor">{{skater}}</span>
+                    {{else}}<span class="autor col-xs-4">skater nepoznat</span>{{/if}}</h4>
+                <div class="kategorija">Stanje: {{stanje}}</div>
+                <div class="opis">{{opis}}</div>
+                {{#with podatci}}
+                <div class="godina">Cijena: {{cijena}} kn</div>
+                 {{#if zalihe}}
+                <div class="zalihe puno">{{kolicina}} kom.</div>{{else}}
+                <div class="zalihe prazno">nema na zalihama</div>
+                {{/if}} 
+                {{/with}}
+                <div class="akicija">{{kolicinaUpozorenje podatci}}</div>
+            </div>
+        </div>
+        {{/each}}
