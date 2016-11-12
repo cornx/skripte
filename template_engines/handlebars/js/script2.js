@@ -1,5 +1,15 @@
 // skripta za mustache-functions.html
 $("document").ready(function() {
+    // custom helper
+    Handlebars.registerHelper("kolicinaUpozorenje", function(podatciProizvoda) {
+        if (podatciProizvoda.zalihe == false && podatciProizvoda.kolicina > 1) {
+            return "";
+        } else if (podatciProizvoda.kolicina > 2) {
+            return "Ima dosta proizvoda na zalihama";
+        } else if (podatciProizvoda.zalihe == true) {
+            return "Još malo pa nestalo!";
+        }
+    });
 
     var template = $("#kartica").html();
 
