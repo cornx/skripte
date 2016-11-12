@@ -1,0 +1,59 @@
+ body {
+     margin-top: 40px;
+ }
+ 
+ .card {
+     padding: 0;
+ }
+ 
+ .opis {
+     font-size: 15px;
+     font-style: italic;
+ }
+ 
+ .kategorija {
+     font-weight: bold;
+ }
+ 
+ .naslov_kartice {
+     border-bottom: 1px solid #ccc;
+     padding-bottom: 5px;
+     color: red
+ }
+.zelena_slova {
+    color: green
+}
+.autor {
+	font-size: 14px;
+    padding-top: 13px;
+    margin-top: 0;
+    text-align: right;
+    float: right;
+    line-height: 1;
+    color: #000
+}
+.godina {
+    font-size: 15px;
+    color: green;
+    padding-top: 10px;
+}
+.zalihe{
+    float: right;
+    color: green;
+    font-weight: bold;
+}
+.zalihe{
+    float: right;
+    font-weight: bold;
+    color: #fff; 
+    padding: 0 5px;
+    font-size: 15px;
+}
+.puno {background: green}
+.prazno {background: red}
+
+#rezultat {
+    padding: 10px;
+    color: white;
+    border-radius: 5px
+}

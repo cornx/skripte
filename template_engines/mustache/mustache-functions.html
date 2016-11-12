@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mustache.js</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../jQuery_template/js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/mustache.min.js" type="text/javascript"></script>
+    <script src="js/script2.js" type="text/javascript"></script>
+</head>
+
+<body class="container">
+    <h3 class="naslov">Functions | Mustache.js template engine</h3>
+    <p><a href="index.html">&lt; natrag</a>&emsp;|&emsp;<a href="mustache-conditional.html">conditionals</a></p>
+    <p class="col-xs-12 col-sm-6 col-md-6">
+        Primjer koda:
+        <br>
+        <code>var predlozak = $("#kalkulator").html(); <br>
+    var podatci = { <br>
+        "brojevi": [ <br>&emsp;&emsp;&emsp;&emsp;{
+            "prvi": 10,
+            "drugi": 20
+        },  <br>&emsp;&emsp;&emsp;&emsp;{
+            "prvi": 1,
+            "drugi": 2
+        },  <br>&emsp;&emsp;&emsp;&emsp;{
+            "prvi": 23,
+            "drugi": 24
+        },  <br>&emsp;&emsp;&emsp;&emsp;{
+            "prvi": 12,
+            "drugi": 90
+        },  <br>&emsp;&emsp;&emsp;&emsp;{
+            "prvi": 112,
+            "drugi": 210
+        }] <br>
+    }; <br>
+    podatci.zbroj = function() { <br>
+       &emsp;&emsp;&emsp;&emsp; return this.prvi + this.drugi; <br>
+    }; <br>
+    var ispis = Mustache.render(predlozak, podatci); <br>
+    $("#rezultat").html(ispis);<br><br>
+    &lt;script type="text/html" id="kalkulator"&gt;<br>
+       {{#brojevi}}<br>
+       &emsp; &lt;div class="col-xs-12"&gt;<br>
+            &emsp;&emsp;&emsp;&emsp;{{prvi}} + {{drugi}} = {{zbroj}}<br>
+       &emsp; &lt;/div&gt;<br>
+       {{/brojevi}}<br>
+    &lt;/script&gt;</code>
+    </p>
+    <script type="text/html" id="kalkulator">
+        {{#brojevi}}
+        <div class="col-xs-12">
+            {{prvi}} + {{drugi}} = {{zbroj}}
+        </div>
+        {{/brojevi}}
+    </script>
+
+    <div id="rezultat" class="col-xs-12 col-sm-6 col-md-6 bg-inverse"></div>
+    <!-- ovdje se prikazuje template -->
+</body>
+
+</html>

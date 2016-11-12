@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mustache.js</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../jQuery_template/js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/mustache.min.js" type="text/javascript"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+</head>
+
+<body class="container">
+    <h3 class="naslov">Conditionals | Mustache.js template engine</h3>
+    <p><a href="index.html">&lt; natrag</a>&emsp;|&emsp;u polja za koja ne postoje informacije upisuju se podatci (nepoznat autor / godina nepoznata)</p>
+    <p>
+        Primjer koda:
+        <br>
+        <code>{{#autor}}&lt;span class="autor"&gt;{{autor}}&lt;/span&gt;{{/autor}} <br> 
+             &ensp;{{^autor}}&lt;span class="autor col-xs-4"&gt;autor nepoznat&lt;/span&gt;{{/autor}}
+    </code>
+    </p>
+    <p>
+    Primjer sa zalihama (true = {{#zalihe}}, false = {{^zalihe}})
+    <br>
+    <code>{{#zalihe}}&lt;div class="zalihe puno"&gt;dostupno&lt;/div&gt;{{/zalihe}} <br> 
+&ensp;{{^zalihe}}&lt;div class="zalihe prazno"&gt;nije dostupno&lt;/div&gt;{{/zalihe}}
+    </code></p>
+    <!-- mustache tamplate -->
+    <script type="text/html" id="kartica">
+        {{#fotografije}}
+        <div class="card col-xs-12 col-md-4 col-sm-6">
+            <img src="{{slika}}" class="card-img-top img-fluid">
+            <div class="card-block">
+                <h4 class="naslov_kartice">{{naslov}}
+                {{#autor}}<span class="autor">{{autor}}</span>{{/autor}}
+                    {{^autor}}<span class="autor col-xs-4">autor nepoznat</span>{{/autor}}</h4>
+                <div class="kategorija">{{kategorija}}</div>
+                <div class="opis">{{opis}}</div>
+                {{#godina}}
+                <div class="godina">Godina: {{godina}}</div>
+                {{/godina}} {{^godina}}
+                <div class="godina">Godina nepoznata</div>
+                {{/godina}} 
+                {{#zalihe}}<div class="zalihe puno">dostupno</div>{{/zalihe}} 
+                {{^zalihe}}<div class="zalihe prazno">nije dostupno</div>{{/zalihe}}
+            </div>
+        </div>
+        {{/fotografije}}
+    </script>
+
+    <div id="predlozak"></div>
+    <!-- ovdje se prikazuje template -->
+</body>
+
+</html>
