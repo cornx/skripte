@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Part 4 of Matching game</title>
+    <style type="text/css">
+        img,
+        div {
+            position: absolute;
+        }
+        
+        #leftSide,
+        #rightSide {
+            width: 500px;
+            height: 500px;
+        }
+        
+        #rightSide {
+            border-left: 1px solid #000;
+            left: 500px;
+        }
+    </style>
+    <script>
+        /* variables for random position od images */
+        function randomTop() {
+            var top_position = Math.floor(Math.random() * 400);
+            return top_position;
+        }
+
+        function randomLeft() {
+            var left_position = Math.floor(Math.random() * 400);
+            return left_position;
+        }
+
+        var numberOfFaces = 5; // declaring numberOfFaces variable
+
+        function generateFaces() {
+            var theLeftSide = document.getElementById("leftSide"); // calling leftSide div
+            var theRightSide = document.getElementById("rightSide"); // calling rightSide div
+
+            for (var i = 0; i < numberOfFaces; i++) { // starting for loop
+                var image = document.createElement("img"); // creating img element
+                image.src = "http://home.cse.ust.hk/~rossiter/mooc/matching_game/smile.png"; // set source for image element
+                image.style.top = randomTop() + "px"; // set position from top of the page
+                image.style.left = randomLeft() + "px"; // set position from left side of the page
+
+                theLeftSide.appendChild(image); // adding images to leftSide div (5 images)
+            }
+            leftSideImages = theLeftSide.cloneNode(true); // cloning left side (copy left side images) in seperate variabel leftSideImages
+            leftSideImages.removeChild(leftSideImages.lastChild); // removing last child from leftSideImages (now 4 images)
+            theRightSide.appendChild(leftSideImages); // adding those 4 images to right side
+
+
+            var theBody = document.getElementsByTagName("body")[0]; // calling body elemnt and declaring it to theBody variable
+
+            theLeftSide.lastChild.onclick = function nextLevel(event) { // starting function that triggers after clicking on the last child on left side
+                event.stopPropagation(); // stoping repetiton of script
+                numberOfFaces += 5; // update nuber of images
+
+                while (theLeftSide.firstChild) { // while there is first child in theLeftSide variable
+                    theLeftSide.removeChild(theLeftSide.firstChild); // remove first child
+                }
+                while (theRightSide.firstChild) { // while there is first child in theRightSide variable
+                    theRightSide.removeChild(theRightSide.firstChild); // remove first child
+                }
+                generateFaces(); // repeat generateFaces function
+            }
+            theBody.onclick = function gameOver() { // if is clicked on body (not on first child on left side)
+                alert("Game Over!"); // display alert that the game is over
+                theBody.onclick = null; // disable further clicking on body
+                theLeftSide.lastChild.onclick = null; // disable further clicking on other last child
+            }
+        }
+    </script>
+</head>
+
+
+<body id="theBody" onload="generateFaces()">
+    <h1>Matching game</h1>
+    <p>Click on the extra smiling face on the left.</p>
+    <div id="leftSide"></div>
+    <div id="rightSide"></div>
+
+
+</body>
+
+</html>
+</html>
+</html>
