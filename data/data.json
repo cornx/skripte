@@ -30,4 +30,12 @@
     "primjer": "Dust.js",
     "link_projekt": "<a href='http://akdubya.github.io/dustjs/'>dust.js</a>",
     "ostalo": "JavaScript templateing engine - slično kao i <a href='https://github.com/janl/mustache.js'>Mustache</a>"
+}, {
+    "primjer": "TodoMVC",
+    "link_projekt": "<a href='http://todomvc.com/'>TotoMVC</a>",
+    "ostalo": "primjer TODO aplikacije izrađene u brojnim JS frameworkovima."
+}, {
+    "primjer": "JavaScript Patterns - online e-book",
+    "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/'>link na knjigu</a>",
+    "ostalo": "<a href='https://addyosmani.com/'>link na autorovu stranicu</a>"
 }]
