@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pogodi jedan broj od 1 do 10</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <style>
+        .container {
+            padding-top: 20px;
+        }
+        input {
+            width: 50px;
+        }
+        
+        .rezultat {
+            padding: 20px 0;
+            font-size: 20px;
+        }
+        
+        #broj,
+        .prikazi-random {
+            /* background: yellow;*/
+            padding: 0 2px;
+            font-weight: bold;
+            font-size: 25px;
+        }
+        
+        .tocno {
+            color: green;
+            font-weight: bold;
+        }
+        
+        .netocno {
+            color: red;
+            font-weight: bold;
+        }
+        
+        .rezultat {
+            visibility: hidden
+        }
+        
+        .upozorenje {
+            font-weight: bold;
+            padding: 0 5px;
+            background: yellow;
+        }
+        
+        #broj-pokusaja {
+            font-size: 20px;
+            font-weight: bold;
+            color: #cc0000
+        }
+        .error {
+            background: red;
+            color: #fff;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="row">
+        <div class="col-md-2 col-xs-1"></div>
+        <div class="col-md-8 col-xs-10">
+           <div class="error">UPOZORENJE!!! KOD IMA BUGOVA</div>
+            <h2>Pogađanje broja</h2>
+            <p>Pogodi jedan broj od 1 do 10. Imaš <span id="broj-pokusaja">3</span> pokušaja :)</p>
+            Upiši broj:
+            <input type="number" id="upisi-broj" size="2" min="0" max="10">
+            <button id="provjeri" class="btn btn-danger">Provjeri</button> <i class="close fa fa-refresh fa-2x" aria-hidden="true"></i>
+            <p class="rezultat"></p>
+        </div>
+        <div class="col-md-2 col-xs-1"></div>
+    </div>
+    <script src="js/pogodi-broj.js" type="text/javascript"></script>
+</body>
+
+</html>
