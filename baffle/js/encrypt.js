@@ -9,17 +9,14 @@ let a = baffle(p, {
 
 a.once(); // početno šifriranje
 
-
-
 // dešifriranje i kasnije šifriranje
 encrypt.addEventListener("click", function() {
     if (event.shiftKey) {
         if (encrypt.innerHTML.indexOf(x) > -1) {
             a.reveal(1000);
-            oznaci();
-        } else {
-            a.once();
         }
+    } else {
+        a.once();
     }
 });
 
