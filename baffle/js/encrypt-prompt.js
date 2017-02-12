@@ -11,6 +11,7 @@ a.once(); // početno šifriranje
 
 // var unos = null;
 var unos = null;
+
 function sifra() {
     unos = prompt("Upiši šifru kako bi vidio sadržaj");
     if (unos === null || unos === undefined || unos === "") {
@@ -18,9 +19,11 @@ function sifra() {
 
     } else if (unos === "šifra") {
         a.reveal(1000);
-    }else {
+    } else {
         a.once();
     }
 }
-
-setTimeout(function(){sifra();}, 500);
+// timeout funkcija kako bi se poruka stigla šifrirat
+setTimeout(function() {
+    sifra();
+}, 500);

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ponavljanje</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .pokrivac {
+            z-index: 1;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: #fff;
+        }
+        
+        #poruka {
+            font-size: 100px;
+            color: #fff;
+            font-weight: bold;
+            position: relative;
+            margin-top: 20%;
+            margin-left: 25%;
+        }
+        
+        .crvena {
+            color: red
+        }
+    </style>
+</head>
+
+<body class="container">
+    <div class="pokrivac"></div>
+    <h1 id="poruka">VOLIM TE :)</h1>
+
+    <script>
+        (function() {
+
+            var pokrivac = document.querySelector(".pokrivac"),
+                poruka = document.querySelector("#poruka");
+
+            function sifra() {
+                var unos = prompt("Upiši šifru kako bi vidila sadržaj");
+                if (unos === null || unos === undefined || unos === "") {
+                    pokrivac.classList = "pokrivac";
+
+                } else if (unos === "šifra") {
+                    pokrivac.classList = "";
+                    poruka.style.color = "red"
+                } else {
+                    pokrivac.classList = "pokrivac";
+
+                }
+            }
+            sifra();
+        })();
+    </script>
+</body>
+
+</html>
