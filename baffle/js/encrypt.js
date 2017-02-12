@@ -21,7 +21,6 @@ encrypt.addEventListener("click", function() {
 });
 
 
-
 function oznaci() {
     $('#para').each(function() {
         var skrivenaPoruka = $(this).text().replace(/SKRIVENA PORUKA /g, "<span class='poruka'>SKRIVENA PORUKA </span>");
