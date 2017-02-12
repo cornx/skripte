@@ -20,6 +20,8 @@
 <body class="container">
     <h2 class="text-primary">Baffle.js</h2>
     <p>Klikom na button tekst se enkriptira</p>
+    <p><a href="encrypt.html">Drugi primjer</a></p>
+    
     <div class="card col-sm-6 col-xs-12 card-outline-success">
         <img class="card-img-top img-fluid" src="img/ja.jpg" alt="Card image cap">
         <div class="card-block">
@@ -46,11 +48,16 @@
         });
         encrypt.addEventListener("click", function() {
             b.once();
+            event.preventDefault();
         });
         decrypt.addEventListener("click", function() {
             b.reveal(1000);
+            event.preventDefault();
         });
-        // reverse.addEventListener("click", function(){b.start();});
+        reverse.addEventListener("click", function() {
+            b.start();
+            event.preventDefault();
+        });
     </script>
 </body>
 
