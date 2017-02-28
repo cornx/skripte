@@ -42,4 +42,20 @@
     "primjer": "You Don't Need Javascript - github repo",
     "link_projekt": "<a href='https://github.com/you-dont-need/You-Dont-Need-Javascript/'>link na repozitorij</a>",
     "ostalo": "CSS snippets efekata bez JavaScripta - pure CSS3"
+}, {
+    "primjer": "Scroll Header",
+    "link_projekt": "<a href='http://codepen.io/osublake/pen/NdEONL'>link na codepen</a>",
+    "ostalo": "Naslov u headeru ostaje zaljepljen za top"
+}, {
+    "primjer":"SVG Glitch filter",
+    "link_projekt": "<a href='http://codepen.io/timrijkse/pen/EyYERg'>link na codepen</a>",
+    "ostalo": "Glitch efekt na tekstu (SVG)"
+}, {
+    "primjer":"Filterizr - filter za galeriju slika (CSS)",
+    "link_projekt": "<a href='https://github.com/giotiskl/Filterizr'>link na GitHub</a>&emsp; | &emsp; <a href='http://yiotis.net/filterizr/'>link na stranicu</a>",
+    "ostalo": "Slaganje galerije slika na temelju opisa/naslova slike"
+}, {
+    "primjer":"Justified.js",
+    "link_projekt": "<a href='http://nitinhayaran.github.io/Justified.js/demo/'>link na stranicu</a>",
+    "ostalo": "stvara tiled galeriju slika"
 }]
