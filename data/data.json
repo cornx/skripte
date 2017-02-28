@@ -38,4 +38,8 @@
     "primjer": "JavaScript Patterns - online e-book",
     "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/'>link na knjigu</a>",
     "ostalo": "<a href='https://addyosmani.com/'>link na autorovu stranicu</a>"
+}, {
+    "primjer": "You Don't Need Javascript - github repo",
+    "link_projekt": "<a href='https://github.com/you-dont-need/You-Dont-Need-Javascript/'>link na repozitorij</a>",
+    "ostalo": "CSS snippets efekata bez JavaScripta - pure CSS3"
 }]
