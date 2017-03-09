@@ -58,4 +58,8 @@
     "primjer":"Justified.js",
     "link_projekt": "<a href='http://nitinhayaran.github.io/Justified.js/demo/'>link na stranicu</a>",
     "ostalo": "stvara tiled galeriju slika"
+}, {
+    "primjer":"CSS Grid",
+    "link_projekt": "<a href='http://gridbyexample.com/'>link na stranicu</a>",
+    "ostalo": "stranica posvećena CSS grid tehnologiji - članci, tutorijali (video i pisani) i primjeri koda"
 }]

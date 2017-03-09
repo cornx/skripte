@@ -5,7 +5,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         plodineBtn = document.getElementById("plodine"),
         pleterBtn = document.getElementById("pleter"),
         danijelBtn = document.getElementById("danijel"),
-        labirintBtn = document.getElementById("labirint"),
+        danijelBtn = document.getElementById("danijel"),
+        magnetBtn = document.getElementById("magnet"),
         labirintBtnRjesenje = document.getElementById("labirint-rjesenje"),
         main = document.querySelector("#main");
 
@@ -63,6 +64,18 @@ document.addEventListener("DOMContentLoaded", function(event) {
             file: "img/ime.svg",
             duration: 200,
             /*type: "oneByOne"*/
+        });
+    });   
+    magnetBtn.addEventListener("click", function() {
+        // main.innerHTML = "";
+        while (main.firstChild) {
+            main.removeChild(main.firstChild);
+            main.classList = "";
+        };
+        new Vivus(main, {
+            file: "img/magnet.svg",
+            duration: 200,
+           /* type: "oneByOne"*/
         });
     });
     labirintBtn.addEventListener("click", function() {
