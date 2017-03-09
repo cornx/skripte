@@ -61,5 +61,13 @@
 }, {
     "primjer":"CSS Grid",
     "link_projekt": "<a href='http://gridbyexample.com/'>link na stranicu</a>",
-    "ostalo": "stranica posvećena CSS grid tehnologiji - članci, tutorijali (video i pisani) i primjeri koda"
+    "ostalo": "stranica posvećena CSS grid tehnologiji - članci, tutorijali (video i pisani) i primjeri koda &ensp; | &ensp; <a href='https://tympanus.net/codrops/css_reference/grid/'>još jedan dobar tutorijal</a>"
+}, {
+    "primjer":"There is bot for that",
+    "link_projekt": "<a href='https://thereisabotforthat.com/'>link na stranicu</a>",
+    "ostalo": "pretraživanje postojećih botova za bilo što"
+}, {
+    "primjer":"Gutenberg",
+    "link_projekt": "<a href='https://github.com/BafS/Gutenberg'>link na GitHub</a>",
+    "ostalo": "framework za printanje stranica kako bi izgledali kao knjga (moderna ili klasična)"
 }]
