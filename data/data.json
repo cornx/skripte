@@ -70,4 +70,28 @@
     "primjer":"Gutenberg",
     "link_projekt": "<a href='https://github.com/BafS/Gutenberg'>link na GitHub</a>",
     "ostalo": "framework za printanje stranica kako bi izgledali kao knjga (moderna ili klasična)"
+}, {
+    "primjer":"CSS varijable - tutorijal",
+    "link_projekt": "<a href='http://www.javascriptkit.com/dhtmltutors/css-variables-tutorial.shtml'>link na stranicu</a>",
+    "ostalo": "kratak i jasan tutorijal o CSS varijablama"
+}, {
+    "primjer":"Propeller",
+    "link_projekt": "<a href='http://propeller.in/'>link na stranicu</a>",
+    "ostalo": "kombinacija Bootstrapa i Google Material Designa u 1 frameworku"
+}, {
+    "primjer":"Web gradients",
+    "link_projekt": "<a href='https://webgradients.com/'>link na stranicu</a>",
+    "ostalo": "lista web gradijenata - primjer CSS koda"
+}, {
+    "primjer":"Sticky Kit",
+    "link_projekt": "<a href='http://leafo.net/sticky-kit/'>link na stranicu</a>",
+    "ostalo": "stick to top on scroll"
+}, {
+    "primjer":"SVGo",
+    "link_projekt": "<a href='https://github.com/svg/svgo'>link na stranicu</a>",
+    "ostalo": "optimizacija SVG datoteka - brisanje nepotrebnog koda"
+}, {
+    "primjer":"ScrollAnim",
+    "link_projekt": "<a href='http://scrollanim.kissui.io/'>link na stranicu</a>",
+    "ostalo": "aktivira animacije na scroll"
 }]
