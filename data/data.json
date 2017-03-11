@@ -94,4 +94,12 @@
     "primjer":"ScrollAnim",
     "link_projekt": "<a href='http://scrollanim.kissui.io/'>link na stranicu</a>",
     "ostalo": "aktivira animacije na scroll"
+}, {
+    "primjer":"Box Alignment Cheatsheet (CSS)",
+    "link_projekt": "<a href='https://rachelandrew.co.uk/css/cheatsheets/box-alignment'>link na stranicu</a>",
+    "ostalo": "Box Alignment Cheatsheet"
+}, {
+    "primjer":"HTML & CSS is hard",
+    "link_projekt": "<a href='https://internetingishard.com/html-and-css/'>link na stranicu/tutorijal</a>",
+    "ostalo": "korak po korak upute sa dobrim ilustracijama osnovnih koncepata u CSS-u i HTML-u"
 }]
