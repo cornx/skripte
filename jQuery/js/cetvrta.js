@@ -113,4 +113,84 @@ $(document).ready(function() {
         })
     };
     pricekaj();
+
+    // pogledaj sadržaj naslova
+    console.log($("h4").text()); // četvrta stranica
+    console.log($("#naslov").html()); // isto četvrta stranica
+    console.log($("#drugi-dio").html());
+
+    // pomicanje elemenata
+    function pomakniElement() {
+        let elt = $("#pokretni-pravokutnik"); // element kojeg pokrećemo
+        let pos = elt.offset(); // trenutna pozicija elementa
+        for (let i = 0; i < 50; i++) {
+            pos.top += 1; // pomiće za 50px u odnosu na top
+            pos.left += 1; // pomiće za 50px u odnosu na left
+            elt.offset(pos);
+        }
+        console.log(elt.innerWidth(), elt.outerWidth());
+        console.log(elt.innerHeight(), elt.outerHeight());
+
+        let paddingWidth = elt.innerWidth(),
+            borderWidth = elt.outerWidth(),
+            contentWidth = elt.width(),
+            marginWidth = elt.outerWidth(true);
+        let padding = (paddingWidth - contentWidth) / 2,
+            border = (borderWidth - paddingWidth) / 2,
+            margin = (marginWidth - borderWidth) / 2;
+        console.log("Padding: ", padding, "px");
+        console.log("Margin: ", margin, "px");
+        console.log("Border: ", border, "px");
+        elt.width(200);
+        console.log(elt.width() + "px");
+    }
+
+
+    $(".btn-primary").click(function() {
+        pomakniElement(); // pokreni funkciju klikom na btn
+    });
+    // sprječava scroll stranice prema vrhu kad se klikne href="#"
+    $('a').click(function(e) {
+        e.preventDefault();
+    });
+
+    //********************************************************//
+    //                   DOM manipulacija                     //
+    //********************************************************//
+
+
+    // krug napravljen s jQueryem
+    $(".krug").width(100).height(100).css({
+        "border-radius": "50%",
+        "box-shadow": "2px 2px 2px grey"
+    });
+
+    // generična funckija za animaciju elementa
+    function animirajElement(mis,elem, cls) { // element i class koji se dodaje i miće nakon animacije
+        $(elem).click(function() {  // klikom na želejni HTML element
+            $(elem).addClass("animated " + cls);  // dodajemo tom istom elementu željeni class
+            setTimeout(function resetirajAnimaciju() { // nakon 1 sekunde
+                $(elem).removeClass(cls); // mićemo dodani class sa elementa (resetiramo elemnt)
+            }, 1000);
+        });
+    }
+
+    // stvaranje kvadrata i dodavanje iza kruga
+    var kvadrat = $(document.createElement("div")).css({
+        height: 100,
+        width: 100,
+        background: "red",
+        boxShadow: "3px 3px 3px grey",
+        margin: 20,
+        borderRadius: 5
+    });
+    // dodavanje kvadrata iza kruga
+    $(".krug").after(kvadrat);
+
+    // animacija na kvadratu
+    animirajElement("click", kvadrat, "tada");
+    animirajElement("hover",".krug", "swing");
+    animirajElement("mouseenter","#pokretni-pravokutnik", "shake");
+
+
 }); // end $(document).ready

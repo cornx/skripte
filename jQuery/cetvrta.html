@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <style>
+         :root {
+            --margin: 20px;
+            --padding: 10px;
+            --okvir: 2px solid #999;
+        }
+
         #prvi-dio,
         #drugi-dio {
             height: 200px;
@@ -23,38 +29,61 @@
         .plavi {
             background: #00f;
         }
+
         li {
             text-decoration: none;
             list-style: none;
         }
+
         li::before {
-          content: "\2014\2002";
+            content: "\2014\2002";
         }
+
         .pravokutnik-2 {
-          height: 200px;
-          visibility: hidden;
+            height: 200px;
+            visibility: hidden;
+        }
+
+        #pokretni-pravokutnik {
+            height: 200px;
+            width: 300px;
+            background: orange;
+            visibility: visible;
+            margin: var(--margin);
+            padding: var(--padding);
+            border: var(--okvir);
+        }
+        .orgromni {
+          margin-top: 1800px;
+          display:block;
+          position: relative
         }
     </style>
 </head>
 
 <body class="container">
-    <h4>Četvrta stranica</h4>
+    <h4 id="naslov">Četvrta stranica</h4>
     <div class="row">
         <button class="btn btn-link">klikni na mene</button>
         <button class="btn btn-info">klikni</button>
-        <button class="btn btn-danger">pokazi pravokutnik-2</button>
+        <button class="btn btn-danger">pravokutnik-2</button>
         <button class="btn btn-success">vrati pravokunike</button>
+        <button class="btn btn-primary">pokretni-pravokutnik</button>
+    </div>
+    <div class="row">
+        <div class="col-xs-3" id="pokretni-pravokutnik">ja sam pokretni pravokutnik</div>
+        <div class="clearfix"></div>
+        <div class="krug bg-success"></div>
     </div>
     <div class="row">
         <div id="prvi-dio">Ja sam prvi dio</div>
         <div id="drugi-dio" class="">Ja sam drugi dio</div>
     </div>
     <div class="row">
-      <div class="col-xs-4 bg-primary pravokutnik-2"></div>
+        <div class="col-xs-4 bg-primary pravokutnik-2"></div>
     </div>
-
     <div class="row">
-      <p>Pogledaj console - klikom na link ispisuje se tekst linka u conosle</p>
+        <p>Pogledaj console - klikom na link ispisuje se tekst linka u conosle</p>
         <ul id="test-lista">
             <li id="tocno"><a href="#">prvi link</a></li>
             <li id="netocno"><a href="#">bla bla bla</a></li>
@@ -67,6 +96,13 @@
             <li id="netocno"><a href="#">i još jedan link</a></li>
             <li id="netocno"><a href="#">dosta linkova</a></li>
         </ul>
+    </div>
+      <div class="ogromni"></div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque illo animi ducimus accusantium quibusdam doloribus eum soluta, repellendus at autem tempore quasi ipsa maxime, ipsam esse non. Error, ipsam, corporis. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem consequatur ea, assumenda est obcaecati tempora ducimus blanditiis aliquam deserunt iste. Nam similique consequuntur non odit. Aliquam provident vitae mollitia labore. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate id accusamus assumenda esse amet, iure nisi quod dolore, voluptatem quibusdam itaque minus maxime maiores natus. Quaerat ullam, et mollitia voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi recusandae laborum suscipit vero ea consequuntur perferendis, sapiente hic, consectetur, dignissimos earum ut ipsam dolorum unde quia ex. Fugiat, vitae, rerum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni beatae quod earum accusantium cumque vero. At facere, qui! Doloribus neque consequuntur, totam ex itaque culpa nulla cum accusantium corrupti commodi.</p>
     </div>
     <script src="js/cetvrta.js" type="text/javascript"></script>
 </body>

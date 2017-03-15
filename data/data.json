@@ -126,4 +126,8 @@
     "primjer":"SVG path animation jQuery plugin",
     "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-SVG-Path-Animation-SVG-Path-Painter.html'>link na plugin</a>",
     "ostalo": "animacija po SVG krivulji"
+}, {
+    "primjer":"JSban.ch",
+    "link_projekt": "<a href='http://jsben.ch/#/index'>link na stranicu</a>",
+    "ostalo": "benchmark test javascript/jQuery koda - koristan za provjeru koja verzija koda je brža"
 }]
