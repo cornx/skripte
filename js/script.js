@@ -51,12 +51,7 @@ $(document).ready(function() {
             ink.remove();
         }, 1500);
     });
-
-
-
   });
-
-
 });
 
 
