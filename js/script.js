@@ -84,7 +84,7 @@ route.add("../index.html", function samoNaIndexStranici() {
   });
 
 
-  $("#moja-tablica").tabulator("setData", "data/data.json");
+  $("#moja-tablica").tabulator("setData", "../data/data.json");
 });
 
 
