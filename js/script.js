@@ -1,3 +1,4 @@
+$(document).ready(function() {
 // routes za pokretanje dijelova koda u odgovarajućem html-u
 var route = {
     _routes: {}, // The routes will be stored here
@@ -58,28 +59,28 @@ $(document).ready(function() {
 route.add("../index.html", function samoNaIndexStranici() {
   console.log("radi samo na indexu");
 
-  // pozivanje Tabulator.js tablice
-  $("#moja-tablica").tabulator({
-      fitColumns: true,
-      columns: [{
-          title: "Moj primjer",
-          field: "primjer",
-          sortable: true,
-          width: 180
-      }, {
-          title: "Link na projekt (GitHub)",
-          field: "link_projekt",
-          sortable: false,
-          width: 180
-      }, {
-          title: "Bilješke",
-          field: "ostalo",
-          sortable: false,
-      }, ]
-  });
-
-
-  $("#moja-tablica").tabulator("setData", "../data/data.json");
+  // // pozivanje Tabulator.js tablice
+  // $("#moja-tablica").tabulator({
+  //     fitColumns: true,
+  //     columns: [{
+  //         title: "Moj primjer",
+  //         field: "primjer",
+  //         sortable: true,
+  //         width: 180
+  //     }, {
+  //         title: "Link na projekt (GitHub)",
+  //         field: "link_projekt",
+  //         sortable: false,
+  //         width: 180
+  //     }, {
+  //         title: "Bilješke",
+  //         field: "ostalo",
+  //         sortable: false,
+  //     }, ]
+  // });
+  //
+  //
+  // $("#moja-tablica").tabulator("setData", "../data/data.json");
 });
 
 
@@ -97,3 +98,29 @@ function rippleEffect() {
     }
 }
 rippleEffect();
+
+
+// pozivanje Tabulator.js tablice
+$("#moja-tablica").tabulator({
+    fitColumns: true,
+    columns: [{
+        title: "Moj primjer",
+        field: "primjer",
+        sortable: true,
+        width: 180
+    }, {
+        title: "Link na projekt (GitHub)",
+        field: "link_projekt",
+        sortable: false,
+        width: 180
+    }, {
+        title: "Bilješke",
+        field: "ostalo",
+        sortable: false,
+    }, ]
+});
+
+
+$("#moja-tablica").tabulator("setData", "data/data.json");
+
+});
