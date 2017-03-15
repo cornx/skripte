@@ -102,4 +102,28 @@
     "primjer":"HTML & CSS is hard",
     "link_projekt": "<a href='https://internetingishard.com/html-and-css/'>link na stranicu/tutorijal</a>",
     "ostalo": "korak po korak upute sa dobrim ilustracijama osnovnih koncepata u CSS-u i HTML-u"
+}, {
+    "primjer":"jAnimate",
+    "link_projekt": "<a href='http://rena.to/janimate/'>link na stranicu/tutorijal</a>",
+    "ostalo": "jQuery plugin za animate.css - mogućnost kombinacije arraya animate efekata"
+}, {
+    "primjer":"rippleJS",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Material-Water-Ripple-Effect-With-jQuery-CSS3-jRipple.html'>link na plugin</a>",
+    "ostalo": "mala skripta za ripple efekt"
+}, {
+    "primjer":"hover efekt (CSS + jQuery)",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/3D-Interactive-Image-Hover-Effect-With-jQuery-CSS3-hover3d.html'>link na plugin</a>",
+    "ostalo": "fora efekt - moguća primjena na hotel tony stranici za o pagu podstranicu"
+}, {
+    "primjer":"number animation jQuery plugin",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Easy-jQuery-Number-Animation-Plugin-animateNumber.html'>link na plugin</a>",
+    "ostalo": "manipulacija brojevima, loading, odbrojavanje i sl."
+}, {
+    "primjer":"Scroll to display jQuery plugin",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-Entrance-Animations-Of-Elements-Magic-Display.html'>link na plugin</a>",
+    "ostalo": "prikazuje elemente stranice ovisno o djelu do kojeg smo skrolali mišem"
+}, {
+    "primjer":"SVG path animation jQuery plugin",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-SVG-Path-Animation-SVG-Path-Painter.html'>link na plugin</a>",
+    "ostalo": "animacija po SVG krivulji"
 }]
