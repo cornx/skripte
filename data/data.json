@@ -142,4 +142,8 @@
     "primjer":"bttn.css",
     "link_projekt": "<a href='https://bttn.surge.sh/'>link na skriptu</a>",
     "ostalo": "generira zanimljive CSS-ove za buttons"
+}, {
+    "primjer":"xZoom gallery jQuery",
+    "link_projekt": "<a href='http://www.jqueryscript.net/gallery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom.html'>link na skriptu</a>",
+    "ostalo": "zoom slike - slično kao i na ebayu - hover to zoom (povečalo)"
 }]

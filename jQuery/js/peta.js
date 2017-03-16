@@ -103,4 +103,18 @@ $(document).ready(function() {
     // }, function clickDrugi() {
     //     k2.addClass("makni-border-radijus").removeClass("napravi-border-radius")
     // });
+
+// stvaramo element (img) i dodajemo na njega objekt sa vrijednostima
+    let slika = $("<img/>", {
+        src: "../../img/smile.png",
+        alt: "smješni smješko",
+        className: "img img-responsive",
+        click: function prozirnost() {
+          slika.addClass("animated shake");
+          setTimeout(function zamjeniSliku() {
+            slika.attr("src","../../img/tuzko.png");
+          },1000);
+        }
+    });
+    k2.after(slika);
 });
