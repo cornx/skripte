@@ -130,4 +130,16 @@
     "primjer":"JSban.ch",
     "link_projekt": "<a href='http://jsben.ch/#/index'>link na stranicu</a>",
     "ostalo": "benchmark test javascript/jQuery koda - koristan za provjeru koja verzija koda je brža"
+}, {
+    "primjer":"Boardz.css",
+    "link_projekt": "<a href='http://www.cssscript.com/css-pinterest-like-responsive-board-layout-boardz-css/'>link na skriptu</a>",
+    "ostalo": "pinterest like board layout - masonry slaganje slika i div-ova - čisti CSS - jednostavno"
+}, {
+    "primjer":"In depth indicator - CSS",
+    "link_projekt": "<a href='http://www.cssscript.com/pure-css-scroll-depth-indicator/'>link na skriptu</a>",
+    "ostalo": "pokazuje u vrhu koliko je pređeno stranice (loading)"
+}, {
+    "primjer":"bttn.css",
+    "link_projekt": "<a href='https://bttn.surge.sh/'>link na skriptu</a>",
+    "ostalo": "generira zanimljive CSS-ove za buttons"
 }]

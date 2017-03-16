@@ -56,3 +56,73 @@
 @-moz-keyframes ripple { 100% { opacity: 0; -moz-transform: scale(2.5); transform: scale(2.5);}}
 @-ms-keyframes ripple { 100% { opacity: 0; -ms-transform: scale(2.5); transform: scale(2.5);}}
 @-o-keyframes ripple { 100% { opacity: 0; -o-transform: scale(2.5); transform: scale(2.5);}}
+
+
+
+/*-------------------- jednostavne animacije -----------------*/
+@keyframes radijus {
+  0% {border-radius: 0%; box-shadow:0px 0px 0px #ccc}
+  100% {border-radius: 10%; box-shadow: 2px 2px 2px #ccc}
+}
+@keyframes radijus-unazad {
+  0% {border-radius: 10%; box-shadow: 2px 2px 2px #ccc}
+  100% {border-radius: 0%; box-shadow:0px 0px 0px #ccc}
+}
+.napravi-border-radius {
+  animation: radijus .3s ease-out forwards;
+}
+.makni-border-radijus {
+  animation: radijus-unazad .3s ease-out alternate;
+
+}
+
+
+/*------------------- cetvrta.html ----------------*/
+#prvi-dio,
+#drugi-dio {
+    height: 200px;
+    width: 300px;
+    position: relative;
+    float: left;
+    margin: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #ccc;
+}
+
+.plavi {
+    background: #00f;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+li::before {
+    content: "\2014\2002";
+}
+
+.pravokutnik-2 {
+    height: 200px;
+    visibility: hidden;
+}
+
+#pokretni-pravokutnik {
+    height: 200px;
+    width: 300px;
+    background: orange;
+    visibility: visible;
+    margin: var(--margin);
+    padding: var(--padding);
+    border: var(--okvir);
+}
+
+.orgromni {
+    margin-top: 1800px;
+    display: block;
+    position: relative
+}
+
+.zuti {
+    background: yellow;
+}

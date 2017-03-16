@@ -166,10 +166,10 @@ $(document).ready(function() {
     });
 
     // generična funckija za animaciju elementa
-    function animirajElement(mis,elem, cls) { // element i class koji se dodaje i miće nakon animacije
-        $(elem).click(function() {  // klikom na želejni HTML element
-            $(elem).addClass("animated " + cls);  // dodajemo tom istom elementu željeni class
-            setTimeout(function resetirajAnimaciju() { // nakon 1 sekunde
+    function animirajElement(elem, cls) { // element i class koji se dodaje i miće nakon animacije
+        $(elem).click(function() { // klikom na želejni HTML element
+            $(elem).addClass("animated " + cls); // dodajemo tom istom elementu željeni class
+            setTimeout(function reset() { // nakon 1 sekunde
                 $(elem).removeClass(cls); // mićemo dodani class sa elementa (resetiramo elemnt)
             }, 1000);
         });
@@ -188,9 +188,72 @@ $(document).ready(function() {
     $(".krug").after(kvadrat);
 
     // animacija na kvadratu
-    animirajElement("click", kvadrat, "tada");
-    animirajElement("hover",".krug", "swing");
-    animirajElement("mouseenter","#pokretni-pravokutnik", "shake");
+    animirajElement(kvadrat, "tada");
+    animirajElement(".krug", "swing");
+    animirajElement("#pokretni-pravokutnik", "shake");
 
 
+    function listaAnimacija(elem, cls) {
+        let e = document.querySelectorAll(elem);
+        for (let i = 0; i < e.length; i++) {
+            $(e[i]).mouseenter(function() {
+
+                $(e[i]).addClass("animated " + cls);
+                setTimeout(function restirajAnimaciju() {
+                    $(e[i]).removeClass(cls);
+                }, 1000);
+            });
+        }
+    }
+    listaAnimacija("#test-lista > li", "tada");
+
+
+    $(document.createElement("div")).addClass("novi").prependTo("body").css({
+        height: 200,
+        width: 200,
+        backgroundColor: "yellow",
+        margin: 10,
+        display: "block",
+        padding: 10
+    });
+    // provjeri ako je novonastali element prazan
+    var prazan = $(".novi").is(":empty");
+    console.log(prazan);
+
+    $(".novi").click(function dodajTekst() {
+        // dodaj neki tekst u element
+        $(this).text("sad imaš tekst u sebi, više nisi prazan").addClass("napravi-border-radius");
+        console.log($(this).is(":empty"));
+    });
+
+    // map
+    function paragrafAnimacija(elem, cls) {
+      $(elem).css("cursor", "pointer");
+
+        let e = document.querySelectorAll(elem);
+        for (let i = 0; i < e.length; i++) {
+            $(e[i]).mouseenter(function animiraj() {
+                $(e[i]).addClass("animated " + cls); // animiraj
+                $(e[i].firstChild).before(function provjera() {
+
+                    if (e[i].firstChild != "*") {
+                        return "*";
+                    } else if (e[i].firstChild == "*") {
+                        $(e[i].firstChild).replaceWith("*");
+                    }else {
+                      $(e[i].firstChild).replaceWith("*");
+
+                    }
+                }); // dodaj oznaku da si već ovdje bio ispred prvog slova
+                setTimeout(function reset() { // makni animaciju
+                    $(e[i]).removeClass(cls);
+                }, 1000);
+            });
+        }
+    }
+    paragrafAnimacija(".ogromni > p", "shake");
+
+    $(".ogromni > p").map(function dodajPlus() {
+        return this.firstChild;
+    }).before("+   ");
 }); // end $(document).ready
