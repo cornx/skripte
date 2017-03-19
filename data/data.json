@@ -148,6 +148,6 @@
     "ostalo": "zoom slike - slično kao i na ebayu - hover to zoom (povečalo)"
 }, {
     "primjer":"Iconate (JS i CSS3)",
-    "link_projekt": "<a href='https://github.com/bitshadow/iconate'>link na repozitorij</a>",
+    "link_projekt": "<a href='https://github.com/bitshadow/iconate'>link na repozitorij</a> | <a href='../jQuery/iconate.html'>moj primjer</a>",
     "ostalo": "animiraj ikonice (font-awesome) klikom na njih (i zamjeni ikonicu drugom)"
 }]
