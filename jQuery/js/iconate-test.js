@@ -31,6 +31,14 @@ let animacija = [{ // naprijed [0]
     from: 'fa-telegram',
     to: 'fa-globe',
     animation: 'fadeOut'
+}, { // naprijed [8]
+    from: 'kvadrat',
+    to: 'krug',
+    animation: 'fadeOut'
+}, { // nazad [9]
+    from: 'krug',
+    to: 'kvadrat',
+    animation: 'fadeOut'
 }];
 
 // $(".prva").hover(function prvaIn() {
@@ -89,3 +97,6 @@ function animirajKlikomJQuery(elem, animIn, animOut) { // elem = DOM element, an
     });
 };
 animirajKlikomJQuery(".peta", animacija[6], animacija[7]);
+
+// primjer na nekom drugom elementu osim ikonica
+animirajKlikomJQuery(".kvadrat", animacija[8], animacija[9]);

@@ -25,6 +25,20 @@
     position: relative
 }
 
+
+.krug {
+    background: var(--zelena);
+    border: var(--border);
+    box-shadow: var(--sjena);
+    margin: var(--margina);
+    padding: var(--padding);
+    height: 200px;
+    width: 200px;
+    float: left;
+    position: relative;
+    border-radius: 50%
+}
+
 .navigacija, .navigacija a {
     margin-top: var(--margina);
     margin-bottom: var(--margina);

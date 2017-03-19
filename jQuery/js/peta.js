@@ -108,7 +108,7 @@ $(document).ready(function() {
     let slika = $("<img/>", {
         src: "../../img/smile.png",
         alt: "smješni smješko",
-        className: "img img-responsive",
+        class: "img img-responsive",
         click: function prozirnost() {
             slika.addClass("animated shake");
             setTimeout(function zamjeniSliku() {
@@ -124,7 +124,7 @@ $(document).ready(function() {
         title: "Gitara",
         alt: "gitara",
         marginLeft:20,
-        className: "img img-responsive",
+        class: "img img-responsive",
         click: function animirajGitaru() {
             novaSlika.addClass("animated tada");
             setTimeout(function resetirajAnimaciju() {
