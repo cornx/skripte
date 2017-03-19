@@ -146,4 +146,8 @@
     "primjer":"xZoom gallery jQuery",
     "link_projekt": "<a href='http://www.jqueryscript.net/gallery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom.html'>link na skriptu</a>",
     "ostalo": "zoom slike - slično kao i na ebayu - hover to zoom (povečalo)"
+}, {
+    "primjer":"Iconate (JS i CSS3)",
+    "link_projekt": "<a href='https://github.com/bitshadow/iconate'>link na repozitorij</a>",
+    "ostalo": "animiraj ikonice (font-awesome) klikom na njih (i zamjeni ikonicu drugom)"
 }]

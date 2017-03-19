@@ -104,17 +104,33 @@ $(document).ready(function() {
     //     k2.addClass("makni-border-radijus").removeClass("napravi-border-radius")
     // });
 
-// stvaramo element (img) i dodajemo na njega objekt sa vrijednostima
+    // stvaramo element (img) i dodajemo na njega objekt sa vrijednostima
     let slika = $("<img/>", {
         src: "../../img/smile.png",
         alt: "smješni smješko",
         className: "img img-responsive",
         click: function prozirnost() {
-          slika.addClass("animated shake");
-          setTimeout(function zamjeniSliku() {
-            slika.attr("src","../../img/tuzko.png");
-          },1000);
+            slika.addClass("animated shake");
+            setTimeout(function zamjeniSliku() {
+                slika.attr("src", "../../img/tuzko.png");
+            }, 1000);
         }
     });
     k2.after(slika);
+
+    // dodaj sliku kraj smajlija
+    let novaSlika = $("<img/>", {
+        src: "../../img/001.jpg",
+        title: "Gitara",
+        alt: "gitara",
+        marginLeft:20,
+        className: "img img-responsive",
+        click: function animirajGitaru() {
+            novaSlika.addClass("animated tada");
+            setTimeout(function resetirajAnimaciju() {
+                novaSlika.removeClass("animated tada");
+            }, 1000);
+        }
+    });
+    slika.after(novaSlika);
 });
