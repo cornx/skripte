@@ -150,4 +150,8 @@
     "primjer":"Iconate (JS i CSS3)",
     "link_projekt": "<a href='https://github.com/bitshadow/iconate'>repozitorij</a> | <a href='/skripte/jQuery/iconate.html'>moj primjer</a>",
     "ostalo": "animiraj ikonice (font-awesome) klikom na njih (i zamjeni ikonicu drugom)"
+}, {
+    "primjer":"Timeline (CSS responsive)",
+    "link_projekt": "<a href='http://www.cssscript.com/responsive-css-timeline-boilerplate-timenil-css/'>link na stranicu</a>",
+    "ostalo": "CSS timeline - scroll to travel trough time :)"
 }]
