@@ -154,4 +154,20 @@
     "primjer":"Timeline (CSS responsive)",
     "link_projekt": "<a href='http://www.cssscript.com/responsive-css-timeline-boilerplate-timenil-css/'>link na stranicu</a>",
     "ostalo": "CSS timeline - scroll to travel trough time :)"
+}, {
+    "primjer":"Hover.CSS",
+    "link_projekt": "<a href='https://github.com/IanLunn/Hover/'>link na GitHub repo</a>",
+    "ostalo": "ima više efekata nego animate.css, uključujući i animaciju ikona na buttonu"
+}, {
+    "primjer":"MoveTo.js",
+    "link_projekt": "<a href='https://hsnaydd.github.io/moveTo/demo/'>link na GitHub repo</a>",
+    "ostalo": "smooth move to neki dio stranice"
+}, {
+    "primjer":"JavaScript Style Guide",
+    "link_projekt": "<a href='https://github.com/airbnb/javascript'>link na GitHub repo</a>",
+    "ostalo": "provjeri"
+}, {
+    "primjer":"d3 - SVG prikaz podataka",
+    "link_projekt": "<a href='https://github.com/d3/d3'>link na GitHub repo</a>",
+    "ostalo": "prikazivanje podataka preko SVG-a, ima dosta kartografskih projekcija"
 }]
