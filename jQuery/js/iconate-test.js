@@ -91,8 +91,10 @@ function animirajKlikomJQuery(elem, animIn, animOut) { // elem = DOM element, an
     $(elem).click(function() {
         if ($(elem).hasClass(animIn.from)) { // provjeri class
             iconate(this, animIn); // iconate funkcija (element, ulazna animacija)
+            console.log(animIn.from + " --> " + animIn.to);
         } else {
             iconate(this, animOut); // iconate funkcija (element, izlazna animacija)
+            console.log(animOut.to + " <-- "+ animOut.from);  // ispisuje u konzoli prelazak iz jedne u drugu animaciju
         }
     });
 };

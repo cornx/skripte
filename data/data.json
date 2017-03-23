@@ -170,4 +170,8 @@
     "primjer":"d3 - SVG prikaz podataka",
     "link_projekt": "<a href='https://github.com/d3/d3'>link na GitHub repo</a>",
     "ostalo": "prikazivanje podataka preko SVG-a, ima dosta kartografskih projekcija"
+}, {
+    "primjer":"jQuery MapHighlight",
+    "link_projekt": "<a href='http://www.jqueryscript.net/other/Simple-jQuery-Plugin-For-Highlighting-Image-Map-Maphilight.html'>link na tutorijal</a>",
+    "ostalo": "mapiranje odjeđenog dijela slike/karte <a href='http://www.jqueryscript.net/other/jQuery-Based-Easy-Online-Image-Map-Generator.html'>Map Generator</a> - za određivanje koordinata na slici"
 }]
