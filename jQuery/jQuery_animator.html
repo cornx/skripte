@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Animator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/jquery-3.2.1.js" type="text/javascript"></script> -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/jquery.animator-beta.min.js"></script>
+
+    <style media="screen">
+        .crna {
+            background: #000;
+        }
+
+        .para {
+            padding: 20px
+        }
+
+        .zeleni {
+            background: green;
+        }
+        .btn, #izbornik-animacija, #izbornik-animacija-2 {
+          margin: 0 2px;
+          cursor: pointer;
+        }
+    </style>
+</head>
+
+<body class="container">
+  <h3>jQuery Animator - temeljen na <a href="https://daneden.github.io/animate.css/" target="_blank">AnimateCss</a></h3>
+  <div class="row">
+    <p>Odaberi jednu od animacija i zatim klikni na jedan od buttona. Prvi odabir animacije se odnosi na kvadrat, dok je drugi za krug.</p>
+    <div class="bg-inverse text-white p-3 rounded">
+    <p>NAPOMENA! Prilikom dodavanja elemenata na kojima će se primjenjivati animacije, obavezno dodaj u class elementa "animated". Autor skripte je izgleda to zaboravio napraviti</p>
+    </div>
+  </div>
+    <div class="row">
+        <div class="kvadrat animated"> </div>
+        <div class="krug animated"> </div>
+    </div>
+    <div class="row">
+      <select id="izbornik-animacija-2" class="col-xs-3">
+        <option value="odaberi animaciju" selected> --- izbornik 2 --- </option>
+        <optgroup label="Attention Seekers">
+          <option value="bounce">bounce</option>
+          <option value="flash">flash</option>
+          <option value="pulse">pulse</option>
+          <option value="rubberBand">rubberBand</option>
+          <option value="shake">shake</option>
+          <option value="swing">swing</option>
+          <option value="tada">tada</option>
+          <option value="wobble">wobble</option>
+          <option value="jello">jello</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Entrances">
+          <option value="bounceIn">bounceIn</option>
+          <option value="bounceInDown">bounceInDown</option>
+          <option value="bounceInLeft">bounceInLeft</option>
+          <option value="bounceInRight">bounceInRight</option>
+          <option value="bounceInUp">bounceInUp</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Exits">
+          <option value="bounceOut">bounceOut</option>
+          <option value="bounceOutDown">bounceOutDown</option>
+          <option value="bounceOutLeft">bounceOutLeft</option>
+          <option value="bounceOutRight">bounceOutRight</option>
+          <option value="bounceOutUp">bounceOutUp</option>
+        </optgroup>
+
+        <optgroup label="Fading Entrances">
+          <option value="fadeIn">fadeIn</option>
+          <option value="fadeInDown">fadeInDown</option>
+          <option value="fadeInDownBig">fadeInDownBig</option>
+          <option value="fadeInLeft">fadeInLeft</option>
+          <option value="fadeInLeftBig">fadeInLeftBig</option>
+          <option value="fadeInRight">fadeInRight</option>
+          <option value="fadeInRightBig">fadeInRightBig</option>
+          <option value="fadeInUp">fadeInUp</option>
+          <option value="fadeInUpBig">fadeInUpBig</option>
+        </optgroup>
+
+        <optgroup label="Fading Exits">
+          <option value="fadeOut">fadeOut</option>
+          <option value="fadeOutDown">fadeOutDown</option>
+          <option value="fadeOutDownBig">fadeOutDownBig</option>
+          <option value="fadeOutLeft">fadeOutLeft</option>
+          <option value="fadeOutLeftBig">fadeOutLeftBig</option>
+          <option value="fadeOutRight">fadeOutRight</option>
+          <option value="fadeOutRightBig">fadeOutRightBig</option>
+          <option value="fadeOutUp">fadeOutUp</option>
+          <option value="fadeOutUpBig">fadeOutUpBig</option>
+        </optgroup>
+
+        <optgroup label="Flippers">
+          <option value="flip">flip</option>
+          <option value="flipInX">flipInX</option>
+          <option value="flipInY">flipInY</option>
+          <option value="flipOutX">flipOutX</option>
+          <option value="flipOutY">flipOutY</option>
+        </optgroup>
+
+        <optgroup label="Lightspeed">
+          <option value="lightSpeedIn">lightSpeedIn</option>
+          <option value="lightSpeedOut">lightSpeedOut</option>
+        </optgroup>
+
+        <optgroup label="Rotating Entrances">
+          <option value="rotateIn">rotateIn</option>
+          <option value="rotateInDownLeft">rotateInDownLeft</option>
+          <option value="rotateInDownRight">rotateInDownRight</option>
+          <option value="rotateInUpLeft">rotateInUpLeft</option>
+          <option value="rotateInUpRight">rotateInUpRight</option>
+        </optgroup>
+
+        <optgroup label="Rotating Exits">
+          <option value="rotateOut">rotateOut</option>
+          <option value="rotateOutDownLeft">rotateOutDownLeft</option>
+          <option value="rotateOutDownRight">rotateOutDownRight</option>
+          <option value="rotateOutUpLeft">rotateOutUpLeft</option>
+          <option value="rotateOutUpRight">rotateOutUpRight</option>
+        </optgroup>
+
+        <optgroup label="Sliding Entrances">
+          <option value="slideInUp">slideInUp</option>
+          <option value="slideInDown">slideInDown</option>
+          <option value="slideInLeft">slideInLeft</option>
+          <option value="slideInRight">slideInRight</option>
+
+        </optgroup>
+        <optgroup label="Sliding Exits">
+          <option value="slideOutUp">slideOutUp</option>
+          <option value="slideOutDown">slideOutDown</option>
+          <option value="slideOutLeft">slideOutLeft</option>
+          <option value="slideOutRight">slideOutRight</option>
+
+        </optgroup>
+
+        <optgroup label="Zoom Entrances">
+          <option value="zoomIn">zoomIn</option>
+          <option value="zoomInDown">zoomInDown</option>
+          <option value="zoomInLeft">zoomInLeft</option>
+          <option value="zoomInRight">zoomInRight</option>
+          <option value="zoomInUp">zoomInUp</option>
+        </optgroup>
+
+        <optgroup label="Zoom Exits">
+          <option value="zoomOut">zoomOut</option>
+          <option value="zoomOutDown">zoomOutDown</option>
+          <option value="zoomOutLeft">zoomOutLeft</option>
+          <option value="zoomOutRight">zoomOutRight</option>
+          <option value="zoomOutUp">zoomOutUp</option>
+        </optgroup>
+
+        <optgroup label="Specials">
+          <option value="hinge">hinge</option>
+          <option value="rollIn">rollIn</option>
+          <option value="rollOut">rollOut</option>
+        </optgroup>
+      </select>
+      <select id="izbornik-animacija" class="col-xs-3">
+        <option value="odaberi animaciju" selected> --- izbornik --- </option>
+        <optgroup label="Attention Seekers">
+          <option value="bounce">bounce</option>
+          <option value="flash">flash</option>
+          <option value="pulse">pulse</option>
+          <option value="rubberBand">rubberBand</option>
+          <option value="shake">shake</option>
+          <option value="swing">swing</option>
+          <option value="tada">tada</option>
+          <option value="wobble">wobble</option>
+          <option value="jello">jello</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Entrances">
+          <option value="bounceIn">bounceIn</option>
+          <option value="bounceInDown">bounceInDown</option>
+          <option value="bounceInLeft">bounceInLeft</option>
+          <option value="bounceInRight">bounceInRight</option>
+          <option value="bounceInUp">bounceInUp</option>
+        </optgroup>
+
+        <optgroup label="Bouncing Exits">
+          <option value="bounceOut">bounceOut</option>
+          <option value="bounceOutDown">bounceOutDown</option>
+          <option value="bounceOutLeft">bounceOutLeft</option>
+          <option value="bounceOutRight">bounceOutRight</option>
+          <option value="bounceOutUp">bounceOutUp</option>
+        </optgroup>
+
+        <optgroup label="Fading Entrances">
+          <option value="fadeIn">fadeIn</option>
+          <option value="fadeInDown">fadeInDown</option>
+          <option value="fadeInDownBig">fadeInDownBig</option>
+          <option value="fadeInLeft">fadeInLeft</option>
+          <option value="fadeInLeftBig">fadeInLeftBig</option>
+          <option value="fadeInRight">fadeInRight</option>
+          <option value="fadeInRightBig">fadeInRightBig</option>
+          <option value="fadeInUp">fadeInUp</option>
+          <option value="fadeInUpBig">fadeInUpBig</option>
+        </optgroup>
+
+        <optgroup label="Fading Exits">
+          <option value="fadeOut">fadeOut</option>
+          <option value="fadeOutDown">fadeOutDown</option>
+          <option value="fadeOutDownBig">fadeOutDownBig</option>
+          <option value="fadeOutLeft">fadeOutLeft</option>
+          <option value="fadeOutLeftBig">fadeOutLeftBig</option>
+          <option value="fadeOutRight">fadeOutRight</option>
+          <option value="fadeOutRightBig">fadeOutRightBig</option>
+          <option value="fadeOutUp">fadeOutUp</option>
+          <option value="fadeOutUpBig">fadeOutUpBig</option>
+        </optgroup>
+
+        <optgroup label="Flippers">
+          <option value="flip">flip</option>
+          <option value="flipInX">flipInX</option>
+          <option value="flipInY">flipInY</option>
+          <option value="flipOutX">flipOutX</option>
+          <option value="flipOutY">flipOutY</option>
+        </optgroup>
+
+        <optgroup label="Lightspeed">
+          <option value="lightSpeedIn">lightSpeedIn</option>
+          <option value="lightSpeedOut">lightSpeedOut</option>
+        </optgroup>
+
+        <optgroup label="Rotating Entrances">
+          <option value="rotateIn">rotateIn</option>
+          <option value="rotateInDownLeft">rotateInDownLeft</option>
+          <option value="rotateInDownRight">rotateInDownRight</option>
+          <option value="rotateInUpLeft">rotateInUpLeft</option>
+          <option value="rotateInUpRight">rotateInUpRight</option>
+        </optgroup>
+
+        <optgroup label="Rotating Exits">
+          <option value="rotateOut">rotateOut</option>
+          <option value="rotateOutDownLeft">rotateOutDownLeft</option>
+          <option value="rotateOutDownRight">rotateOutDownRight</option>
+          <option value="rotateOutUpLeft">rotateOutUpLeft</option>
+          <option value="rotateOutUpRight">rotateOutUpRight</option>
+        </optgroup>
+
+        <optgroup label="Sliding Entrances">
+          <option value="slideInUp">slideInUp</option>
+          <option value="slideInDown">slideInDown</option>
+          <option value="slideInLeft">slideInLeft</option>
+          <option value="slideInRight">slideInRight</option>
+
+        </optgroup>
+        <optgroup label="Sliding Exits">
+          <option value="slideOutUp">slideOutUp</option>
+          <option value="slideOutDown">slideOutDown</option>
+          <option value="slideOutLeft">slideOutLeft</option>
+          <option value="slideOutRight">slideOutRight</option>
+
+        </optgroup>
+
+        <optgroup label="Zoom Entrances">
+          <option value="zoomIn">zoomIn</option>
+          <option value="zoomInDown">zoomInDown</option>
+          <option value="zoomInLeft">zoomInLeft</option>
+          <option value="zoomInRight">zoomInRight</option>
+          <option value="zoomInUp">zoomInUp</option>
+        </optgroup>
+
+        <optgroup label="Zoom Exits">
+          <option value="zoomOut">zoomOut</option>
+          <option value="zoomOutDown">zoomOutDown</option>
+          <option value="zoomOutLeft">zoomOutLeft</option>
+          <option value="zoomOutRight">zoomOutRight</option>
+          <option value="zoomOutUp">zoomOutUp</option>
+        </optgroup>
+
+        <optgroup label="Specials">
+          <option value="hinge">hinge</option>
+          <option value="rollIn">rollIn</option>
+          <option value="rollOut">rollOut</option>
+        </optgroup>
+      </select>
+        <button class="btn btn-outline-primary"><a id="btn-kvadrat">Animiraj kvadrat</a></button>
+        <button class="btn btn-outline-danger"><a id="btn-krug">Animiraj krug</a></button>
+    </div>
+    <!-- <div class="row col-xs-12 para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad similique praesentium, sit rerum magni! Unde odio ex quaerat cumque, omnis at asperiores qui sint voluptatem accusantium soluta, illum nemo eligendi?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro omnis repellat, necessitatibus fuga in, deleniti sint delectus vero, architecto perspiciatis, commodi fugit maiores aut possimus quibusdam deserunt ipsa ea aperiam!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus harum eum deserunt? Voluptatibus deleniti sapiente, hic facilis? Labore quas assumenda architecto nobis reprehenderit, quidem, saepe error, minima excepturi expedita officia.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. At illo odio molestiae nulla cupiditate sequi, fugiat autem, in beatae fuga rem sint, aperiam, suscipit consequuntur. Ratione itaque officiis repellat nesciunt.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab labore magni iure, officiis natus odio architecto voluptas sed in distinctio ducimus, molestias nihil animi fuga. Asperiores fugit quos atque, facere?</p>
+    </div>
+    <div class="row col-xs-12 para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio cumque perferendis minus ut in aperiam voluptates aut excepturi, voluptatem quas rerum, ipsam, molestiae. Cum voluptates, similique pariatur alias eius hic.</p>
+        <p class="kvadrat animated" id="kvadrat-nulti"></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit laudantium similique possimus incidunt repudiandae magnam ullam animi impedit inventore culpa. Dicta, voluptas officia repudiandae maxime doloribus sunt in. Architecto, ea.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio blanditiis vitae deserunt, debitis laudantium odio quasi obcaecati temporibus fugiat consectetur quam maiores! Vitae, esse. Iusto voluptas, dolor praesentium maiores quidem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ut ex numquam beatae ullam a earum veritatis deleniti consequuntur minima! Hic, mollitia optio, culpa eaque quidem adipisci velit voluptates rem.</p>
+        <p class="krug plavi animated" id="krug-prvi"></p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum est ducimus sed explicabo quae vitae expedita, rerum asperiores laborum molestiae totam minima impedit corporis id deserunt reiciendis dolore voluptates placeat.</p>
+    </div>
+    <div class="row col-xs-12 para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, consectetur molestiae reiciendis omnis similique dolorem voluptatem assumenda pariatur totam repellendus, sit aperiam in optio amet, dolores sint veniam quisquam libero.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi odio dolorem quidem accusantium minima consequatur error, quasi natus aspernatur, nesciunt distinctio molestias vero mollitia libero tempore, necessitatibus ex quis porro?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, ducimus. Nulla quo corporis obcaecati ab repellat, quaerat earum ad, mollitia cumque aspernatur architecto ipsam eos commodi aliquid tempore, rerum beatae.</p>
+        <p class="kvadrat zeleni animated" id="kvadrat-prvi"></p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, blanditiis, incidunt. Consequatur vitae inventore veritatis quam illo eos nulla itaque facere, veniam. Iure rerum cupiditate iste, facilis necessitatibus accusamus repudiandae.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum enim natus voluptates cupiditate distinctio, rerum optio iure, sint, nostrum officiis est repudiandae earum officia non impedit id dignissimos voluptate labore.</p>
+    </div>
+    <div class="row col-xs-12 para">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem nulla, qui! Repellendus error accusantium quis temporibus quo, vero cupiditate. Porro ducimus unde, cupiditate ipsum sapiente, iure quod repellendus sunt recusandae?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi illo dolorem labore, dolor est tenetur modi laudantium porro illum perferendis dicta fugiat aliquid quae rem officia, voluptate minus soluta dolore?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil consequatur, repellat corporis. Distinctio placeat explicabo aliquam provident mollitia ipsam qui necessitatibus tempore saepe, perferendis, quisquam id veniam earum, recusandae quam.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus maxime numquam voluptatum autem ducimus tempora ut pariatur accusamus quos, voluptatem eius dolore unde alias amet dolorem placeat. Atque, veritatis, nihil.</p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum laboriosam natus numquam, expedita dicta reprehenderit cupiditate inventore ducimus qui ipsum pariatur quos facilis laborum ipsam perferendis quaerat veritatis deleniti accusantium.Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Porro ab quaerat assumenda incidunt quasi suscipit tenetur nihil ipsa dolores veritatis optio inventore obcaecati sit, magnam beatae earum asperiores omnis magni!</p>
+        <div class="row">
+            <div class="kvadrat crna animated" id="kvadrat-drugi"></div>
+        </div>
+        <!-- <script src="js/jquery.animator-beta.min.js" type="text/javascript"></script> -->
+        <script src="js/jQuery_animator_test.js" type="text/javascript"></script> -->
+</body>
+
+</html>

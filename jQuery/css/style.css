@@ -7,8 +7,12 @@
     --zelena: green;
     --zuta: yellow;
     --velicina-pravokutnika: 500px;
+    --ruka: pointer
 }
-
+.btn {
+  cursor: var(--ruka);
+  margin: 0 1px
+}
 .container {
   margin-top: 20px;
 }
