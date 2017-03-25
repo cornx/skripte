@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Namespace</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/jquery-3.2.1.js" type="text/javascript"></script> -->
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <style media="screen">
+        .p1 {
+            height: 200px;
+            width: 300px;
+            display: block;
+            position: relative;
+            float: left;
+            margin: 20px;
+        }
+
+        .upute {
+            visibility: hidden;
+        }
+
+        .p2 {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            float: left;
+            margin: 20px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+
+<body class="container">
+    <h3><a href="index.html"><i class="fa fa-home">&ensp;</i></a> Testiranje namespace - jQuery</h3>
+    <div class="row">
+        Dokumentacija: <a href="https://css-tricks.com/namespaced-events-jquery/" target="_blank"> event.namespace</a>
+    </div>
+    <div class="row">
+        <div class="kvadrat"></div>
+        <div class="krug"></div>
+
+        <div class="p1">
+            <p class="prikaz">
+                <p class="upute p-3 text-white">nakon 1 sekunde klikni opet na "klikni 2x" za animaciju</p>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <select id="izbornik-animacija" class="col-xs-3">
+  <optgroup label="odaberi animaciju" selected>
+    <option value="tada">tada</option>
+    <option value="swing">swing</option>
+    <option value="shake">shake</option>
+    <option value="bounce">bounce</option>
+    <option value="wobble">wobble</option>
+</optgroup>
+</select>
+<button class="btn btn-primary" id="select" style="margin-bottom:10px">animiraj sve</button>
+    </div>
+
+
+    <div class="row">
+        <button class="btn btn-primary" id="klikni-na-mene">klikni na mene</button>
+        <button class="btn btn-danger" id="ns-trigger">namespace</button>
+        <button class="btn btn-success" id="dvaput">klikni 2x</button>
+        <button class="btn btn-outline-warning" id="aktiviraj-sve">aktiviraj sve</button>
+        <button class="btn btn-outline-primary" id="multiple">više aktivacija</button>
+        <button class="btn btn-outline-inverse" id="zaljepi">zaljepi</button>
+        <button class="btn btn-outline-success" id="array-triggera">array trigger</button>
+
+    </div>
+    <div class="row kvadrati">
+        <div class="p2" id="p1"></div>
+        <div class="p2" id="p2"></div>
+        <div class="p2" id="p3"></div>
+        <div class="p2" id="p4"></div>
+    </div>
+    <script src="js/namespace.js" type="text/javascript"></script>
+</body>
+
+</html>
