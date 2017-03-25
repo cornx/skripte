@@ -83,9 +83,9 @@
     "link_projekt": "<a href='https://webgradients.com/' target='_blank'>link na stranicu</a>",
     "ostalo": "lista web gradijenata - primjer CSS koda"
 }, {
-    "primjer":"Sticky Kit",
-    "link_projekt": "<a href='http://leafo.net/sticky-kit/' target='_blank'>link na stranicu</a>",
-    "ostalo": "stick to top on scroll"
+    "primjer":"Sticky",
+    "link_projekt": "<a href='https://github.com/garand/sticky' target='_blank'>link na GitHub</a> i <a href='http://stickyjs.com/' target='_blank'>stranicu</a>",
+    "ostalo": "stick to top/bottom on scroll"
 }, {
     "primjer":"SVGo",
     "link_projekt": "<a href='https://github.com/svg/svgo' target='_blank'>link na stranicu</a>",
@@ -182,4 +182,8 @@
     "primjer":"MaterialDesign form for Bootstrap",
     "link_projekt": "<a href='http://www.jqueryscript.net/form/Material-Design-Wizard-Form-Plugin-jQuery-Bootstrap.html' target='_blank'>link na primjer i upute</a>",
     "ostalo": "zanimljiva, korak po korak kontakt forma u MaterialDesign"
+}, {
+    "primjer":"Minimal One Page Scroll",
+    "link_projekt": "<a href='http://www.jqueryscript.net/other/Minimal-One-Page-Scroll-Mockup-jQuery-smooth-scrolling.html' target='_blank'>link na primjer i upute</a>",
+    "ostalo": "scroll + singlePage website --> HTML, CSS i jQuery"
 }]
