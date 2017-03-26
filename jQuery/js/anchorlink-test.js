@@ -1,5 +1,3 @@
-console.log("radi");
-
 $('a[href^="#"][href!="#"]').anchorlink({
 
   // animation speed in milliseconds

@@ -187,7 +187,7 @@
     "link_projekt": "<a href='http://www.jqueryscript.net/other/Minimal-One-Page-Scroll-Mockup-jQuery-smooth-scrolling.html'>link na primjer i upute</a>",
     "ostalo": "scroll + singlePage website --> HTML, CSS i jQuery"
 }, {
-    "primjer":"Shepherd",
-    "link_projekt": "<a href='http://github.hubspot.com/shepherd/docs/welcome/'>link na primjer i upute</a>",
-    "ostalo": "skripta za izradu interaktivnih uputa --> dobro za wp upute kako se snaći u dashboardu"
+    "primjer":"Interaktivne upute",
+    "link_projekt": "<a href='https://github.com/heelhook/chardin.js'>chardin</a> | <a href='http://introjs.com/'>introJS</a>",
+    "ostalo": "skripta za izradu interaktivnih uputa --> dobro za wp upute kako se snaći u dashboardu (booking ili neki drugi)"
 }]

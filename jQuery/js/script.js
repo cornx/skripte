@@ -50,7 +50,6 @@ $(document).ready(function() {
         }
     }
 
-
     // provjeri postoji li neki element na stranici
     jQuery.fn.exists = function() {
         return this.length > 0;
@@ -61,10 +60,25 @@ $(document).ready(function() {
     route.add("index.html", function samoNaPrvoj() {
         console.log("ovo bi trebalo samo na index.html prikazat");
 
-        kvadrat.append("<br> ovo je dodano preko skripte");
+        kvadrat.append("<br> ovo je dodano preko skripte").attr({
+          "data-intro":"Ovaj element je dodan preko skripte",
+          "data-position":"bottom"
+        });
         kvadrat.after("<div class='dodatak'>također dodano preko skripte</div>");
+        $(".dodatak").attr({
+          "data-intro":"i ovaj je također dodan preko skripte (script.js)",
+          "data-position":"bottom"
+        });
         $(".dodatak").after("<div class='col-xs-2 kvadrat'>ja sam dodan ispred žutog</div>").css("background", "var(--zelena)");
+        $(".kvadrat").attr({
+          "data-intro":"ovaj je dodan poslje .dodatak",
+          "data-position":"bottom"
+        });
 
+        // pokreću se upute
+        $("#upute").on("click", function pokreniUpute() {
+          $('body').chardinJs('start');
+        });
     });
     // kod se aktivira samo na prva.html strnici
     route.add('prva.html', function() {
