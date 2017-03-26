@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Sticky elements</title>
+    <title>Sticky elements i AnchorLink jQuery</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -12,11 +12,12 @@
 
     <script src="js/jquery.min.js" type="text/javascript"></script>
     <script src="js/jquery.sticky.js" type="text/javascript"></script>
+    <script src="js/jquery.anchorlink.js" type="text/javascript"></script>
+
     <style media="screen">
         li::before {
             content: "";
         }
-
         /*.navbar {
             margin: 20px 0;
         }*/
@@ -32,7 +33,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav mr-auto mt-2 mt-md-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#izbornik">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#peti">Peti row</a>
@@ -44,16 +45,19 @@
         </div>
     </nav>
     <div class="row">
-      <p>Izvor: <a href="http://stickyjs.com/" target="_blank">StickyJS</a></p>
+        <p><a href="index.html"><i class="fa fa-home fa-2x">&ensp;</i></a></p>
+        <p>Izvor: <a href="http://stickyjs.com/">StickyJS</a> i <a href="http://www.jqueryscript.net/animation/Smooth-Scrolling-To-Anchor-Elements-jQuery-anchorLink.html">AnchorLink jQuery</a>
+        </p>
     </div>
-    <div class="row">
+    <div class="row" id="home">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias molestiae aliquid rerum. Quia commodi, accusantium obcaecati rem autem earum dolor ab hic culpa ducimus, magni tenetur qui molestias repellat a.</p>
         <p>Dolorem nisi, amet aut doloribus incidunt ipsam nulla, odit vel, quas ex veritatis ullam, pariatur eius eaque quia asperiores possimus ratione voluptates facere doloremque perspiciatis deserunt porro. Ea, labore, magnam.</p>
         <p>Enim, fuga, similique. Dolorum id harum consectetur, sit iusto repellendus. Nostrum cum nobis, est iure excepturi fuga tenetur officiis ipsam obcaecati quos eveniet deserunt eum neque, delectus id explicabo maxime.</p>
         <p>Fugit cupiditate incidunt ex ipsa dolor vel! Nobis repellendus sit quod asperiores at accusantium fugit tempore tenetur dolorum odit iusto error provident facere nihil molestiae cumque, consectetur eligendi saepe delectus!</p>
         <p>Facilis modi dicta, suscipit earum. Rerum natus illum, est accusantium vitae. Eaque debitis illum consequatur sit inventore ut a, sed quis. Amet optio omnis itaque maiores veniam rerum, suscipit tempora!</p>
         <p>Aspernatur nesciunt deleniti dolor recusandae fugit ullam odit. Ullam quidem pariatur, officiis qui temporibus molestias vero libero, similique, maiores repudiandae autem quisquam aliquam numquam necessitatibus. Neque adipisci, possimus sapiente
-            vero?</p>
+            vero?
+        </p>
         <p>Minima est voluptas ducimus, culpa dolorum obcaecati quam perferendis, suscipit porro cupiditate ratione id ab maiores iste, tempora ipsa deleniti enim, explicabo voluptatibus. Commodi atque, eos sit repudiandae quia error.</p>
         <p>Velit dolorem voluptate quo veniam quos aliquam architecto, illo perferendis aperiam, ducimus obcaecati nisi. Suscipit pariatur nisi odio, voluptatibus voluptas labore facere odit velit, nam laborum recusandae consequuntur eligendi itaque.</p>
         <p>Quibusdam saepe, voluptas vitae veritatis dicta, id, asperiores nulla similique ad expedita laudantium pariatur, dolores sit modi. Incidunt aliquid repellendus iste fuga magnam quibusdam error libero architecto, voluptas deleniti sequi.</p>
@@ -96,7 +100,8 @@
         <p>Aliquam aut inventore laborum pariatur perspiciatis vitae nostrum ab libero placeat consequuntur. Sunt quo ducimus itaque at esse, voluptates illo perferendis eius maiores ullam est, facere sapiente a obcaecati placeat.</p>
         <p>Vitae blanditiis consequuntur ipsam quidem possimus ipsa libero ipsum sunt hic nobis, omnis vero modi cumque, non enim culpa suscipit sed? Autem aliquid vel est dolorum eveniet totam iste voluptatum!</p>
     </div>
-    <div class="row" id="peti">
+    <div class="row">
+      <h3 id="peti">Ja sam peti row</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est autem excepturi, vitae mollitia magnam cum ad nam! Dolorum, eligendi, magnam! Iste eum sequi perferendis eligendi animi veritatis nemo tempora suscipit.</p>
         <p>Possimus illum ratione quisquam unde mollitia facere voluptatem incidunt nam nobis quam. Minus culpa recusandae voluptatum odit molestiae officia voluptatem natus sed, ut commodi nobis, fugiat dignissimos consequuntur. Molestiae, neque!</p>
         <p>Nulla vero nemo ipsam possimus officiis neque maxime tempora veritatis voluptas odit quibusdam, nesciunt sunt eum iure, laboriosam porro, dolorum dicta doloribus similique facilis cupiditate recusandae quaerat in alias. Vel.</p>
@@ -127,7 +132,8 @@
         <p>Non porro, tempora nihil doloremque, assumenda quasi. Odit magni blanditiis quo est debitis quam quod doloremque nisi sint. Et omnis amet harum atque ducimus provident voluptatibus vel consequuntur repellendus, illum.</p>
         <p>Alias ullam error, magni voluptas ipsam dolorum nemo. Magni tempore culpa quos praesentium voluptate quas accusantium dolorum voluptas. Voluptas quod voluptatem eveniet distinctio soluta quisquam. Aperiam vel corrupti, at repellendus.</p>
         <p>Iure doloremque praesentium sit repellat ipsam mollitia cupiditate quisquam distinctio, nobis rerum facilis natus repellendus molestiae alias, quaerat cumque exercitationem quasi, totam tempora quos laudantium! Aliquid laudantium totam, incidunt
-            eos!</p>
+            eos!
+        </p>
         <p>Vel fugiat nulla, voluptatem odit repellendus, doloribus mollitia consectetur impedit quisquam quas incidunt et blanditiis accusamus sapiente dolorum fugit? Esse nesciunt architecto, optio inventore iste iusto accusantium vel laudantium dolores?</p>
         <p>Fugit amet perspiciatis voluptatem doloremque accusamus consequatur est, debitis sit recusandae iure voluptates maxime odit. Harum voluptatum, inventore, eos quasi unde dolorem quas eaque tempore, accusantium aliquam sit. Laboriosam, rem?</p>
         <p>Dolor enim excepturi pariatur magni veritatis, atque vero in repellat accusamus distinctio quidem sapiente et, sequi! Soluta obcaecati doloremque facilis, dolor quidem doloribus nihil consequatur quam, explicabo dignissimos omnis temporibus.</p>
@@ -144,12 +150,14 @@
         <p>Incidunt nulla officia non maiores ipsa vero aut quod sapiente iure et deserunt temporibus, maxime, numquam, obcaecati eligendi neque enim, doloremque ducimus excepturi harum eaque dolore quos sequi voluptate voluptates?</p>
         <p>In delectus laboriosam natus vel earum. Quaerat ducimus a omnis, magni ullam quasi alias qui, iure sequi voluptatem officiis neque sunt facere. Doloribus dolorum illum, voluptatum rerum molestiae laudantium nihil!</p>
         <p>Eos, sint? Architecto pariatur assumenda nostrum laudantium velit similique, ipsa tempore, incidunt sit dolorem blanditiis asperiores perspiciatis consequuntur deserunt tempora rem, nam sapiente doloribus? Eveniet eum recusandae, inventore accusamus
-            possimus!</p>
+            possimus!
+        </p>
     </div>
     <div class="row">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim repellat non nihil debitis, animi illum sunt quaerat odit, voluptates inventore impedit voluptatem maiores ab quae beatae, numquam! Quod, repudiandae sed.</p>
         <p>Assumenda iusto, debitis voluptas vitae, dignissimos fuga reprehenderit dolor obcaecati deserunt reiciendis, quibusdam blanditiis libero nisi! Maxime, vitae esse libero voluptas totam porro blanditiis asperiores aliquam, repellat neque laborum
-            nihil.</p>
+            nihil.
+        </p>
         <p>Sapiente commodi quas tempora iste quasi nesciunt alias saepe magni. Ex quisquam quidem consequatur labore animi explicabo modi laudantium dolorem sit quis doloremque accusantium, dolore et deserunt veniam id soluta!</p>
         <p>Numquam tempora illo ducimus libero praesentium aperiam ex vel atque et, ipsa recusandae harum repellendus voluptatem vero eveniet, quas voluptatibus inventore quis culpa nulla dolores quidem quasi exercitationem qui. Illum.</p>
         <p>Quidem, delectus, at. Inventore veniam fugiat rerum officia doloribus praesentium porro eaque ullam molestias non. Repellat nemo minima vitae aut incidunt consequatur cum eaque pariatur, modi, possimus culpa, veritatis vero?</p>
@@ -159,7 +167,8 @@
         <p>Quaerat amet, facere velit. Numquam consequatur neque eos soluta, adipisci tempore porro aliquid totam. Asperiores sequi repellat temporibus, assumenda, quisquam voluptatem quia architecto iste mollitia distinctio cumque deserunt non, a.</p>
         <p>Expedita harum, possimus sed officiis eius maiores autem corporis ea nostrum at quidem beatae repellendus ex alias rem aliquam minima adipisci commodi maxime laborum? Et quasi ipsum inventore nesciunt! Maxime!</p>
     </div>
-    <div class="row" id="zadnji">
+    <div class="row">
+      <h4 id="zadnji">Ja sam zadnji row</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur pariatur modi, iusto veniam. Magnam omnis voluptatem, esse vitae eum, nobis repudiandae ex hic dolore quo molestias asperiores obcaecati sequi sunt!</p>
         <p>Quo veniam adipisci magnam impedit eligendi perspiciatis reiciendis atque enim dolorum magni rerum asperiores illo laborum, mollitia reprehenderit facere quod vitae aliquid, explicabo eos quia ea, laudantium voluptatem. Quasi, quibusdam!</p>
         <p>Exercitationem ullam, dolores consequatur tempore illum facere nemo voluptas quibusdam, quis quas? Doloremque corporis illo sunt aliquid, recusandae impedit, id asperiores dignissimos molestiae quam voluptatem consequatur cumque quidem ut error.</p>
@@ -170,10 +179,12 @@
         <p>Deleniti, doloremque beatae perspiciatis architecto illum aperiam ex velit id nobis, reprehenderit rerum maiores iusto eum perferendis, asperiores itaque omnis voluptate enim illo incidunt fuga quam cum! Commodi nesciunt, harum.</p>
         <p>Expedita nulla officia, autem debitis voluptas, cumque veritatis facere id magnam dignissimos accusantium impedit ipsa esse sapiente sit quos perspiciatis odio? Consequuntur tempore nobis cum expedita cumque facere alias similique.</p>
         <p>Recusandae accusantium unde minus eaque impedit culpa pariatur? Cupiditate provident neque repudiandae voluptatum, maxime, deleniti doloribus enim suscipit ad quam blanditiis asperiores distinctio, quia laboriosam omnis. Minus consequatur distinctio
-            nihil!</p>
+            nihil!
+        </p>
     </div>
 
     <script src="js/sticky-test.js" type="text/javascript"></script>
+    <script src="js/anchorlink-test.js" type="text/javascript"></script>
 </body>
 
 </html>

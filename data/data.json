@@ -1,189 +1,193 @@
 [{
-    "primjer": "<a href='baffle/index.html' target='_blank'>Baffle.js</a>",
-    "link_projekt": "<a href='https://camwiegert.github.io/baffle/' target='_blank'>link na projekt</a>",
+    "primjer": "<a href='baffle/index.html'>Baffle.js</a>",
+    "link_projekt": "<a href='https://camwiegert.github.io/baffle/'>link na projekt</a>",
     "ostalo": "scramble data - šifrira podatke DOM elemenata"
 }, {
-    "primjer": "<a href='keyboardjs/index.html' target='_blank'>Keyboards.js</a>",
-    "link_projekt": "<a href='https://github.com/RobertWHurst/KeyboardJS' target='_blank'>link na projekt</a>",
+    "primjer": "<a href='keyboardjs/index.html'>Keyboards.js</a>",
+    "link_projekt": "<a href='https://github.com/RobertWHurst/KeyboardJS'>link na projekt</a>",
     "ostalo": "povezivanje funkcija/eventa sa pojedinom tipkom na tastaturi"
 }, {
-    "primjer": "<a href='svg/index.html' target='_blank'>SVG - animacije</a>",
-    "link_projekt": "<a href='https://maxwellito.github.io/vivus/' target='_blank'>Vivus.js (svg)</a>",
-    "ostalo": "niz primjera s animacijama SVG-a | <a href='http://tympanus.net/Development/AnimatedLetters/' target='_blank'>još primjera sa slovima (SVG)</a> | <a href='svg/svg-test.html' target='_blank'>SVG zastave</a>"
+    "primjer": "<a href='svg/index.html'>SVG - animacije</a>",
+    "link_projekt": "<a href='https://maxwellito.github.io/vivus/'>Vivus.js (svg)</a>",
+    "ostalo": "niz primjera s animacijama SVG-a | <a href='http://tympanus.net/Development/AnimatedLetters/'>još primjera sa slovima (SVG)</a> | <a href='svg/svg-test.html'>SVG zastave</a>"
 }, {
-    "primjer": "<a href='tabulator/index.html' target='_blank'>Tabulator.js</a>",
-    "link_projekt": "<a href='http://olifolkerd.github.io/tabulator/' target='_blank'>link na projekt</a>",
-    "ostalo": "<a href='tabulator/json-primjer.html' target='_blank'>primjer s JSON-om</a> - ova tablica je rađena u tabulatoru | <a href='https://www.sitepoint.com/dynamic-tables-json/?utm_source=javascriptweekly&utm_medium=email' target='_blank'>upute s JSON-om</a>"
+    "primjer": "<a href='tabulator/index.html'>Tabulator.js</a>",
+    "link_projekt": "<a href='http://olifolkerd.github.io/tabulator/'>link na projekt</a>",
+    "ostalo": "<a href='tabulator/json-primjer.html'>primjer s JSON-om</a> - ova tablica je rađena u tabulatoru | <a href='https://www.sitepoint.com/dynamic-tables-json/?utm_source=javascriptweekly&utm_medium=email'>upute s JSON-om</a>"
 }, {
-    "primjer": "<a href='kalendar/index.html' target='_blank'>Kalendar</a>",
-    "link_projekt": "<a href='https://github.com/niklasvh/html2canvas' target='_blank'>HTML2Canvas.js</a> | <a href='http://introjs.com/' target='_blank'>intro.js</a></a>",
-    "ostalo": "u ovom projektu uz moj kod su korišteni <a href='https://github.com/niklasvh/html2canvas' target='_blank'>HTML2Canvas.js</a>, <a href='https://github.com/RobertWHurst/KeyboardJS' target='_blank'>keyboards.js</a> i <a href='http://introjs.com/' target='_blank'>intro.js</a> skripte"
+    "primjer": "<a href='kalendar/index.html'>Kalendar</a>",
+    "link_projekt": "<a href='https://github.com/niklasvh/html2canvas'>HTML2Canvas.js</a> | <a href='http://introjs.com/'>intro.js</a></a>",
+    "ostalo": "u ovom projektu uz moj kod su korišteni <a href='https://github.com/niklasvh/html2canvas'>HTML2Canvas.js</a>, <a href='https://github.com/RobertWHurst/KeyboardJS'>keyboards.js</a> i <a href='http://introjs.com/'>intro.js</a> skripte"
 }, {
     "primjer": "Hue.css",
-    "link_projekt": "<a href='http://evankarageorgos.github.io/hue/' target='_blank'>HUE.css</a>",
-    "ostalo": "CSS library sa 49 različitih gradijent pozadina - <a href='https://www.behance.net/gallery/30067997/Hue-Free-Promo-Backdrops-and-Gradients' target='_blank'>prikaz svih (jpg)</a>"
+    "link_projekt": "<a href='http://evankarageorgos.github.io/hue/'>HUE.css</a>",
+    "ostalo": "CSS library sa 49 različitih gradijent pozadina - <a href='https://www.behance.net/gallery/30067997/Hue-Free-Promo-Backdrops-and-Gradients'>prikaz svih (jpg)</a>"
 }, {
     "primjer": "Anime.js",
-    "link_projekt": "<a href='http://anime-js.com/' target='_blank'>anime.js</a>",
-    "ostalo": "JS library za animiranje elemenata; jednostavna implementacija - <a href='https://www.sitepoint.com/animating-the-dom-with-anime-js/' target='_blank'>tutorijal na SitePintu</a>"
+    "link_projekt": "<a href='http://anime-js.com/'>anime.js</a>",
+    "ostalo": "JS library za animiranje elemenata; jednostavna implementacija - <a href='https://www.sitepoint.com/animating-the-dom-with-anime-js/'>tutorijal na SitePintu</a>"
 }, {
     "primjer": "Dust.js",
-    "link_projekt": "<a href='http://akdubya.github.io/dustjs/' target='_blank'>dust.js</a>",
-    "ostalo": "JavaScript templateing engine - slično kao i <a href='https://github.com/janl/mustache.js' target='_blank'>Mustache</a>"
+    "link_projekt": "<a href='http://akdubya.github.io/dustjs/'>dust.js</a>",
+    "ostalo": "JavaScript templateing engine - slično kao i <a href='https://github.com/janl/mustache.js'>Mustache</a>"
 }, {
     "primjer": "TodoMVC",
-    "link_projekt": "<a href='http://todomvc.com/' target='_blank'>TotoMVC</a>",
+    "link_projekt": "<a href='http://todomvc.com/'>TotoMVC</a>",
     "ostalo": "primjer TODO aplikacije izrađene u brojnim JS frameworkovima."
 }, {
     "primjer": "JavaScript Patterns - online e-book",
-    "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/' target='_blank'>link na knjigu</a>",
-    "ostalo": "<a href='https://addyosmani.com/' target='_blank'>link na autorovu stranicu</a>"
+    "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/'>link na knjigu</a>",
+    "ostalo": "<a href='https://addyosmani.com/'>link na autorovu stranicu</a>"
 }, {
     "primjer": "You Don't Need Javascript - github repo",
-    "link_projekt": "<a href='https://github.com/you-dont-need/You-Dont-Need-Javascript/' target='_blank'>link na repozitorij</a>",
+    "link_projekt": "<a href='https://github.com/you-dont-need/You-Dont-Need-Javascript/'>link na repozitorij</a>",
     "ostalo": "CSS snippets efekata bez JavaScripta - pure CSS3"
 }, {
     "primjer": "Scroll Header",
-    "link_projekt": "<a href='http://codepen.io/osublake/pen/NdEONL' target='_blank'>link na codepen</a>",
+    "link_projekt": "<a href='http://codepen.io/osublake/pen/NdEONL'>link na codepen</a>",
     "ostalo": "Naslov u headeru ostaje zaljepljen za top"
 }, {
     "primjer":"SVG Glitch filter",
-    "link_projekt": "<a href='http://codepen.io/timrijkse/pen/EyYERg' target='_blank'>link na codepen</a>",
+    "link_projekt": "<a href='http://codepen.io/timrijkse/pen/EyYERg'>link na codepen</a>",
     "ostalo": "Glitch efekt na tekstu (SVG)"
 }, {
     "primjer":"Filterizr - filter za galeriju slika (CSS)",
-    "link_projekt": "<a href='https://github.com/giotiskl/Filterizr' target='_blank'>link na GitHub</a>&emsp; | &emsp; <a href='http://yiotis.net/filterizr/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='https://github.com/giotiskl/Filterizr'>link na GitHub</a>&emsp; | &emsp; <a href='http://yiotis.net/filterizr/'>link na stranicu</a>",
     "ostalo": "Slaganje galerije slika na temelju opisa/naslova slike"
 }, {
     "primjer":"Justified.js",
-    "link_projekt": "<a href='http://nitinhayaran.github.io/Justified.js/demo/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://nitinhayaran.github.io/Justified.js/demo/'>link na stranicu</a>",
     "ostalo": "stvara tiled galeriju slika"
 }, {
     "primjer":"CSS Grid",
-    "link_projekt": "<a href='http://gridbyexample.com/' target='_blank'>link na stranicu</a>",
-    "ostalo": "stranica posvećena CSS grid tehnologiji - članci, tutorijali (video i pisani) i primjeri koda &ensp; | &ensp; <a href='https://tympanus.net/codrops/css_reference/grid/' target='_blank'>još jedan dobar tutorijal</a>"
+    "link_projekt": "<a href='http://gridbyexample.com/'>link na stranicu</a>",
+    "ostalo": "stranica posvećena CSS grid tehnologiji - članci, tutorijali (video i pisani) i primjeri koda &ensp; | &ensp; <a href='https://tympanus.net/codrops/css_reference/grid/'>još jedan dobar tutorijal</a>"
 }, {
     "primjer":"There is bot for that",
-    "link_projekt": "<a href='https://thereisabotforthat.com/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='https://thereisabotforthat.com/'>link na stranicu</a>",
     "ostalo": "pretraživanje postojećih botova za bilo što"
 }, {
     "primjer":"Gutenberg",
-    "link_projekt": "<a href='https://github.com/BafS/Gutenberg' target='_blank'>link na GitHub</a>",
+    "link_projekt": "<a href='https://github.com/BafS/Gutenberg'>link na GitHub</a>",
     "ostalo": "framework za printanje stranica kako bi izgledali kao knjga (moderna ili klasična)"
 }, {
     "primjer":"CSS varijable - tutorijal",
-    "link_projekt": "<a href='http://www.javascriptkit.com/dhtmltutors/css-variables-tutorial.shtml' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://www.javascriptkit.com/dhtmltutors/css-variables-tutorial.shtml'>link na stranicu</a>",
     "ostalo": "kratak i jasan tutorijal o CSS varijablama"
 }, {
     "primjer":"Propeller",
-    "link_projekt": "<a href='http://propeller.in/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://propeller.in/'>link na stranicu</a>",
     "ostalo": "kombinacija Bootstrapa i Google Material Designa u 1 frameworku"
 }, {
     "primjer":"Web gradients",
-    "link_projekt": "<a href='https://webgradients.com/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='https://webgradients.com/'>link na stranicu</a>",
     "ostalo": "lista web gradijenata - primjer CSS koda"
 }, {
     "primjer":"Sticky",
-    "link_projekt": "<a href='https://github.com/garand/sticky' target='_blank'>link na GitHub</a> i <a href='http://stickyjs.com/' target='_blank'>stranicu</a>",
+    "link_projekt": "<a href='https://github.com/garand/sticky'>link na GitHub</a> i <a href='http://stickyjs.com/'>stranicu</a>",
     "ostalo": "stick to top/bottom on scroll"
 }, {
     "primjer":"SVGo",
-    "link_projekt": "<a href='https://github.com/svg/svgo' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='https://github.com/svg/svgo'>link na stranicu</a>",
     "ostalo": "optimizacija SVG datoteka - brisanje nepotrebnog koda"
 }, {
     "primjer":"ScrollAnim",
-    "link_projekt": "<a href='http://scrollanim.kissui.io/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://scrollanim.kissui.io/'>link na stranicu</a>",
     "ostalo": "aktivira animacije na scroll"
 }, {
     "primjer":"Box Alignment Cheatsheet (CSS)",
-    "link_projekt": "<a href='https://rachelandrew.co.uk/css/cheatsheets/box-alignment' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='https://rachelandrew.co.uk/css/cheatsheets/box-alignment'>link na stranicu</a>",
     "ostalo": "Box Alignment Cheatsheet"
 }, {
     "primjer":"HTML & CSS is hard",
-    "link_projekt": "<a href='https://internetingishard.com/html-and-css/' target='_blank'>link na stranicu/tutorijal</a>",
+    "link_projekt": "<a href='https://internetingishard.com/html-and-css/'>link na stranicu/tutorijal</a>",
     "ostalo": "korak po korak upute sa dobrim ilustracijama osnovnih koncepata u CSS-u i HTML-u"
 }, {
     "primjer":"jAnimate",
-    "link_projekt": "<a href='http://rena.to/janimate/' target='_blank'>link na stranicu/tutorijal</a>",
+    "link_projekt": "<a href='http://rena.to/janimate/'>link na stranicu/tutorijal</a>",
     "ostalo": "jQuery plugin za animate.css - mogućnost kombinacije arraya animate efekata"
 }, {
     "primjer":"rippleJS",
-    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Material-Water-Ripple-Effect-With-jQuery-CSS3-jRipple.html' target='_blank'>link na plugin</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Material-Water-Ripple-Effect-With-jQuery-CSS3-jRipple.html'>link na plugin</a>",
     "ostalo": "mala skripta za ripple efekt"
 }, {
     "primjer":"hover efekt (CSS + jQuery)",
-    "link_projekt": "<a href='http://www.jqueryscript.net/animation/3D-Interactive-Image-Hover-Effect-With-jQuery-CSS3-hover3d.html' target='_blank'>link na plugin</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/3D-Interactive-Image-Hover-Effect-With-jQuery-CSS3-hover3d.html'>link na plugin</a>",
     "ostalo": "fora efekt - moguća primjena na hotel tony stranici za o pagu podstranicu"
 }, {
     "primjer":"number animation jQuery plugin",
-    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Easy-jQuery-Number-Animation-Plugin-animateNumber.html' target='_blank'>link na plugin</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/Easy-jQuery-Number-Animation-Plugin-animateNumber.html'>link na plugin</a>",
     "ostalo": "manipulacija brojevima, loading, odbrojavanje i sl."
 }, {
     "primjer":"Scroll to display jQuery plugin",
-    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-Entrance-Animations-Of-Elements-Magic-Display.html' target='_blank'>link na plugin</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-Entrance-Animations-Of-Elements-Magic-Display.html'>link na plugin</a>",
     "ostalo": "prikazuje elemente stranice ovisno o djelu do kojeg smo skrolali mišem"
 }, {
     "primjer":"SVG path animation jQuery plugin",
-    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-SVG-Path-Animation-SVG-Path-Painter.html' target='_blank'>link na plugin</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/animation/jQuery-Plugin-For-SVG-Path-Animation-SVG-Path-Painter.html'>link na plugin</a>",
     "ostalo": "animacija po SVG krivulji"
 }, {
     "primjer":"JSban.ch",
-    "link_projekt": "<a href='http://jsben.ch/#/index' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://jsben.ch/#/index'>link na stranicu</a>",
     "ostalo": "benchmark test javascript/jQuery koda - koristan za provjeru koja verzija koda je brža"
 }, {
     "primjer":"Boardz.css",
-    "link_projekt": "<a href='http://www.cssscript.com/css-pinterest-like-responsive-board-layout-boardz-css/' target='_blank'>link na skriptu</a>",
+    "link_projekt": "<a href='http://www.cssscript.com/css-pinterest-like-responsive-board-layout-boardz-css/'>link na skriptu</a>",
     "ostalo": "pinterest like board layout - masonry slaganje slika i div-ova - čisti CSS - jednostavno"
 }, {
     "primjer":"In depth indicator - CSS",
-    "link_projekt": "<a href='http://www.cssscript.com/pure-css-scroll-depth-indicator/' target='_blank'>link na skriptu</a>",
+    "link_projekt": "<a href='http://www.cssscript.com/pure-css-scroll-depth-indicator/'>link na skriptu</a>",
     "ostalo": "pokazuje u vrhu koliko je pređeno stranice (loading)"
 }, {
     "primjer":"bttn.css",
-    "link_projekt": "<a href='https://bttn.surge.sh/' target='_blank'>link na skriptu</a>",
+    "link_projekt": "<a href='https://bttn.surge.sh/'>link na skriptu</a>",
     "ostalo": "generira zanimljive CSS-ove za buttons"
 }, {
     "primjer":"xZoom gallery jQuery",
-    "link_projekt": "<a href='http://www.jqueryscript.net/gallery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom.html' target='_blank'>link na skriptu</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/gallery/Feature-rich-Product-Gallery-With-Image-Zoom-xZoom.html'>link na skriptu</a>",
     "ostalo": "zoom slike - slično kao i na ebayu - hover to zoom (povečalo)"
 }, {
     "primjer":"Iconate (JS i CSS3)",
-    "link_projekt": "<a href='https://github.com/bitshadow/iconate' target='_blank'>repozitorij</a> | <a href='/skripte/jQuery/iconate.html' target='_blank'>moj primjer</a>",
+    "link_projekt": "<a href='https://github.com/bitshadow/iconate'>repozitorij</a> | <a href='/skripte/jQuery/iconate.html'>moj primjer</a>",
     "ostalo": "animiraj ikonice (font-awesome) klikom na njih (i zamjeni ikonicu drugom)"
 }, {
     "primjer":"Timeline (CSS responsive)",
-    "link_projekt": "<a href='http://www.cssscript.com/responsive-css-timeline-boilerplate-timenil-css/' target='_blank'>link na stranicu</a>",
+    "link_projekt": "<a href='http://www.cssscript.com/responsive-css-timeline-boilerplate-timenil-css/'>link na stranicu</a>",
     "ostalo": "CSS timeline - scroll to travel trough time :)"
 }, {
     "primjer":"Hover.CSS",
-    "link_projekt": "<a href='https://github.com/IanLunn/Hover/' target='_blank'>link na GitHub repo</a>",
+    "link_projekt": "<a href='https://github.com/IanLunn/Hover/'>link na GitHub repo</a>",
     "ostalo": "ima više efekata nego animate.css, uključujući i animaciju ikona na buttonu"
 }, {
     "primjer":"MoveTo.js",
-    "link_projekt": "<a href='https://hsnaydd.github.io/moveTo/demo/' target='_blank'>link na GitHub repo</a>",
+    "link_projekt": "<a href='https://hsnaydd.github.io/moveTo/demo/'>link na GitHub repo</a>",
     "ostalo": "smooth move to neki dio stranice"
 }, {
     "primjer":"JavaScript Style Guide",
-    "link_projekt": "<a href='https://github.com/airbnb/javascript' target='_blank'>link na GitHub repo</a>",
+    "link_projekt": "<a href='https://github.com/airbnb/javascript'>link na GitHub repo</a>",
     "ostalo": "provjeri"
 }, {
     "primjer":"d3 - SVG prikaz podataka",
-    "link_projekt": "<a href='https://github.com/d3/d3' target='_blank'>link na GitHub repo</a>",
+    "link_projekt": "<a href='https://github.com/d3/d3'>link na GitHub repo</a>",
     "ostalo": "prikazivanje podataka preko SVG-a, ima dosta kartografskih projekcija"
 }, {
     "primjer":"jQuery MapHighlight",
-    "link_projekt": "<a href='http://www.jqueryscript.net/other/Simple-jQuery-Plugin-For-Highlighting-Image-Map-Maphilight.html' target='_blank'>link na tutorijal</a>",
-    "ostalo": "mapiranje odjeđenog dijela slike/karte <a href='http://www.jqueryscript.net/other/jQuery-Based-Easy-Online-Image-Map-Generator.html' target='_blank'>Map Generator</a> - za određivanje koordinata na slici"
+    "link_projekt": "<a href='http://www.jqueryscript.net/other/Simple-jQuery-Plugin-For-Highlighting-Image-Map-Maphilight.html'>link na tutorijal</a>",
+    "ostalo": "mapiranje odjeđenog dijela slike/karte <a href='http://www.jqueryscript.net/other/jQuery-Based-Easy-Online-Image-Map-Generator.html'>Map Generator</a> - za određivanje koordinata na slici"
 }, {
     "primjer":"jQuery.animator.js",
-    "link_projekt": "<a href='https://zugoripls.github.io/jquery.animator/' target='_blank'>link na GitHub</a>",
+    "link_projekt": "<a href='https://zugoripls.github.io/jquery.animator/'>link na GitHub</a>",
     "ostalo": "jQuery za AnimateCSS - mogućnost animiranja u sljedu"
 }, {
     "primjer":"MaterialDesign form for Bootstrap",
-    "link_projekt": "<a href='http://www.jqueryscript.net/form/Material-Design-Wizard-Form-Plugin-jQuery-Bootstrap.html' target='_blank'>link na primjer i upute</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/form/Material-Design-Wizard-Form-Plugin-jQuery-Bootstrap.html'>link na primjer i upute</a>",
     "ostalo": "zanimljiva, korak po korak kontakt forma u MaterialDesign"
 }, {
     "primjer":"Minimal One Page Scroll",
-    "link_projekt": "<a href='http://www.jqueryscript.net/other/Minimal-One-Page-Scroll-Mockup-jQuery-smooth-scrolling.html' target='_blank'>link na primjer i upute</a>",
+    "link_projekt": "<a href='http://www.jqueryscript.net/other/Minimal-One-Page-Scroll-Mockup-jQuery-smooth-scrolling.html'>link na primjer i upute</a>",
     "ostalo": "scroll + singlePage website --> HTML, CSS i jQuery"
+}, {
+    "primjer":"Shepherd",
+    "link_projekt": "<a href='http://github.hubspot.com/shepherd/docs/welcome/'>link na primjer i upute</a>",
+    "ostalo": "skripta za izradu interaktivnih uputa --> dobro za wp upute kako se snaći u dashboardu"
 }]

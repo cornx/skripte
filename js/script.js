@@ -122,4 +122,13 @@ $(document).ready(function() {
 
     $("#moja-tablica").tabulator("setData", "data/data.json");
 
+
+    // otvaraj vanjske linkove u novom tabu target="_blank" (iz knjige jQuery Trickshoots)
+    $("a").each(function() {
+        if (this.hostname != location.hostname) {
+            // The link is external
+            $(this).attr('target', '_blank');
+        }
+    });
+
 });
