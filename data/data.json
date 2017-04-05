@@ -190,4 +190,24 @@
     "primjer":"Interaktivne upute",
     "link_projekt": "<a href='https://github.com/heelhook/chardin.js'>chardin</a> | <a href='http://introjs.com/'>introJS</a>",
     "ostalo": "skripta za izradu interaktivnih uputa --> dobro za wp upute kako se snaći u dashboardu (booking ili neki drugi)"
+}, {
+    "primjer":"DrooltipJS",
+    "link_projekt": "<a href='https://prevwong.github.io/drooltip.js/'>link na stranicu</a>",
+    "ostalo": "napredno dodavanje tooltipova koji su u potpunosti prilagodljivi --> moguće dodavanje html elemenata"
+}, {
+    "primjer":"Responsive Equal Height Grid Layout",
+    "link_projekt": "<a href='http://www.jqueryscript.net/layout/Responsive-Equal-Height-Grid-Layout-Plugin-For-jQuery-Wrecker.html'>link na stranicu</a>",
+    "ostalo": "stupci i redci jednake visine"
+}, {
+    "primjer":"PickaDay",
+    "link_projekt": "<a href='http://www.cssscript.com/tiny-dependency-free-date-picker-js-library-pikaday/'>link na stranicu</a>",
+    "ostalo": "date picker, jednostavna integracija, možda"
+}, {
+    "primjer":"CSS overlay text",
+    "link_projekt": "<a href='http://www.cssscript.com/pure-css3-animated-text-overlay-on-hover/'>link na stranicu</a>",
+    "ostalo": "overlay preko element (on hover), čisti CSS"
+}, {
+    "primjer":"Tippy.JS",
+    "link_projekt": "<a href='https://atomiks.github.io/tippyjs/'>link na stranicu</a>",
+    "ostalo": "vanilla js tooltips, super jednostavno, dosta animacija"
 }]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ponavljanje</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/drooltip.css">
+    <style>
+        .mojTultip {
+            height: 200px;
+            width: 200px;
+            background: orange;
+            box-shadow: 4px 4px 4px #999;
+            border-radius: 5%;
+        }
+    </style>
+</head>
+
+<body class="container">
+
+    <div class="mojTultip drooltip">Ovo je moj tultip</div>
+
+
+    <script src="js/drooltip.js" type="text/javascript"></script>
+    <script>
+        var tooltip = new Drooltip({
+            "element": ".mojTultip",
+            "trigger": "hover"
+            // "position": "top",
+            // "background": "#2175ff",
+            // "color": "#fff",
+            // "animation": "bounce",
+            // "content": null,
+            // "callback": null
+        });
+    </script>
+    <!-- <script src="js/drooltip-test.js" type="text/javascript"></script> -->
+</body>
+
+</html>
