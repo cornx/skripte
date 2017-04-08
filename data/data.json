@@ -35,10 +35,6 @@
     "link_projekt": "<a href='http://todomvc.com/'>TotoMVC</a>",
     "ostalo": "primjer TODO aplikacije izrađene u brojnim JS frameworkovima."
 }, {
-    "primjer": "JavaScript Patterns - online e-book",
-    "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/'>link na knjigu</a>",
-    "ostalo": "<a href='https://addyosmani.com/'>link na autorovu stranicu</a>"
-}, {
     "primjer": "You Don't Need Javascript - github repo",
     "link_projekt": "<a href='https://github.com/you-dont-need/You-Dont-Need-Javascript/'>link na repozitorij</a>",
     "ostalo": "CSS snippets efekata bez JavaScripta - pure CSS3"
@@ -210,4 +206,12 @@
     "primjer":"Tippy.JS",
     "link_projekt": "<a href='https://atomiks.github.io/tippyjs/'>link na stranicu</a>",
     "ostalo": "vanilla js tooltips, super jednostavno, dosta animacija"
+}, {
+    "primjer":"DOM manipulacija sa čistom JavaScriptom",
+    "link_projekt": "<a href='https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/'>link na tutorijal</a>",
+    "ostalo": "query DOM bez jQuerya, vanillaJS"
+}, {
+    "primjer":"jQuery calendar plugin - data range",
+    "link_projekt": "<a href='http://www.jqueryscript.net/time-clock/Multi-language-jQuery-Date-Range-Picker-Plugin.html'>link na skriptu</a>",
+    "ostalo": "odabir kalendara - range"
 }]

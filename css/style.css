@@ -2,7 +2,6 @@
   padding-top: 20px
 }
 
-
 /* --------------------------------- Ripple effect -------------------------------- */
 .ripple-effect { position: relative; overflow: hidden; -webkit-transform: translate3d(0, 0, 0);}
 .ink { display: block; position: absolute; pointer-events: none; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -o-border-radius: 50%; -ms-border-radius: 50%; -webkit-transform: scale(0); -moz-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0); background: #fff; opacity: 1;}

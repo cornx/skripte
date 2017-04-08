@@ -120,4 +120,27 @@ $(document).ready(function() {
     });
 
     $("#moja-tablica").tabulator("setData", "data/data.json");
+
+
+    // povezivanje json datoteke s popisom knjiga
+    $("#tablica-knjiga").tabulator({
+        fitColumns: true,
+        columns: [{
+            title: "Moj primjer",
+            field: "primjer",
+            sortable: true,
+            width: 180
+        }, {
+            title: "Link na projekt (GitHub)",
+            field: "link_projekt",
+            sortable: false,
+            width: 180
+        }, {
+            title: "Bilješke",
+            field: "ostalo",
+            sortable: false,
+        }, ]
+    });
+
+    $("#tablica-knjiga").tabulator("setData", "data/knjige.json");
 });

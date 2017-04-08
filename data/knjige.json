@@ -1,0 +1,25 @@
+[{
+    "primjer": "Front-End Developer Handbook 2017",
+    "link_projekt": "<a href='https://frontendmasters.com/books/front-end-handbook/2017/'>link na knjigu</a>",
+    "ostalo": "Frontend Masters knjiga o svemu što jedan frontend developer treba znati"
+}, {
+    "primjer": "JavaScript Quick Reference",
+    "link_projekt": "<a href='https://dataisgold.gitbooks.io/javascript-quick-reference/content/'>link na knjigu</a>",
+    "ostalo": "kratka knjiga o osnovnim JavaScript stvarima"
+}, {
+    "primjer": "<span class='zuto'>WordPress The Right Way</span>",
+    "link_projekt": "<a href='https://www.gitbook.com/book/tomjn/wordpress-the-right-way/details'>link na knjigu</a>",
+    "ostalo": "osnovne stvari o WordPressu - obavezno pročitaj. <span class='crveno'>NAPOMENA!</span> ne radi web verzija pa skini pdf ili epub"
+}, {
+    "primjer": "<span class='crveno'>A book on EcmaScript*</span>",
+    "link_projekt": "<a href='https://iamanubhavsaini.gitbooks.io/ecmascript/content/'>link na knjigu</a>",
+    "ostalo": "knjiga s primjerima iz ES (JavaScript) - korisna za početnike ili za ponavljanje - <span class='zuto'>sadrži dosta jadnostavnih primjera</span>"
+}, {
+    "primjer": "JavaScript Patterns - online e-book",
+    "link_projekt": "<a href='https://addyosmani.com/resources/essentialjsdesignpatterns/book/'>link na knjigu</a>",
+    "ostalo": "<a href='https://addyosmani.com/'>link na autorovu stranicu</a>"
+}, {
+    "primjer": "Make Web JS-less Again",
+    "link_projekt": "<a href='https://doumanash.gitbooks.io/make-web-js-less-again/content/'>link na knjigu</a>",
+    "ostalo": "zamjena JS-a s CSS-om</a>"
+}]
