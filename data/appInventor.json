@@ -1,4 +1,8 @@
 [{
+    "primjer": "Pura Vida Apps",
+    "link_projekt": "<a href='http://puravidaapps.com/index.php'>link na stranicu</a>",
+    "ostalo": "stranica sa masu tutorijala, snippets i extensions za AppInventor"
+}, {
     "primjer": "PaintPot - ppt (googleDrive)",
     "link_projekt": "<a href='https://docs.google.com/presentation/d/11nDt5nwbe51txdNdAlX5bO03XMMNXSdMUmaKSAQwgac/edit#slide=id.p'>link na prezentaciju</a>",
     "ostalo": "prezentacija-upute kako izradit jednostavnu aplikaciju (drawingCanvas) za crtanje + foto (camera)"
@@ -6,4 +10,12 @@
     "primjer": "dvodnevni Workshop",
     "link_projekt": "<a href='https://docs.google.com/document/d/1L7PEy_NdiiRTfIIEADHTBTMYO-ifHIPD-WkzgvabaEk/edit'>link na skriptu/upute</a>",
     "ostalo": "workshop sa KATE (Kentucky Academy of Technology Education) - dvodnevni trening u AppInventoru - rad s TinyDB i drawingCanvas"
+}, {
+    "primjer": "AppInvntor Resources",
+    "link_projekt": "<a href='http://explore.appinventor.mit.edu/resources'>link na stranicu</a>",
+    "ostalo": "razni resursi za AppInvntor"
+}, {
+    "primjer": "AppInvntor Concept Cards",
+    "link_projekt": "<a href='http://explore.appinventor.mit.edu/resources/beginner-app-inventor-concept-cards'>link na stranicu</a> | <a href='http://explore.appinventor.mit.edu/sites/all/files/ConceptCards/ai2/AppInventorMakerCards.pdf'>još jedne kartice (PDF)</a>",
+    "ostalo": "PDF-ovi s kratkim objašnjenjima AppInventor koncepata - obavezno prouči"
 }]
