@@ -1,0 +1,40 @@
+.container {
+    padding-top: 40px;
+}
+
+.naslov {
+    padding-bottom: 20px;
+}
+
+.tabulator-col {
+    background: #373a3c;
+    color: #fff;
+}
+
+.desno {
+    text-align: right
+}
+
+.dodatni-linkovi b {
+    font-family: monospace;
+    color: red;
+    font-weight: normal;
+}
+
+.container {
+    padding-bottom: 50px
+}
+
+.crveno {
+    color: red;
+    font-weight: bold;
+}
+
+.zuto {
+    background: yellow;
+    padding: 0 5px
+}
+
+.tabulator .tabulator-cell[data-field="ostalo"] {
+    font-size:13px;
+}

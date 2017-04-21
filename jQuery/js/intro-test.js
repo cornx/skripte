@@ -34,6 +34,6 @@ function startIntro(){
           });
           intro.start();
       }
-$(".fa-info-circle").click(function pokreniUpute() {
+$(".pokreni_upute").click(function pokreniUpute() {
   startIntro();
 })

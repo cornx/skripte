@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+  <meta charset="UTF-8">
+  <title>SlideReveal</title>
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="../../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../css/style.css">
+  <link rel="stylesheet" href="../../css/font-awesome.min.css">
+  <style>
+     :root {
+      --zelena: #4CAF50;
+      --narancasta: #FF9800;
+      --crvena: #E53935;
+      --plava: #3F51B5;
+      --bijela: #fff;
+    }
+
+    .zelena {
+      background: var(--zelena);
+    }
+
+    .plava {
+      background: var(--plava);
+    }
+
+    .narancasta {
+      background: var(--narancasta);
+    }
+
+    .crvena {
+      background: var(--crvena);
+    }
+
+    #slider {
+      background: var(--narancasta);
+      padding: 10px
+    }
+
+    #slider-home {
+      background: var(--zelena);
+      padding: 10px;
+    }
+
+    #slider-info {
+      background: var(--plava);
+      padding: 10px;
+    }
+
+    #trigger {
+      padding: 4px;
+      cursor: pointer;
+      color: var(--narancasta)
+    }
+
+    #trigger-home {
+      padding: 4px;
+      cursor: pointer;
+      color: var(--zelena);
+      margin-top: 40px;
+    }
+
+    #trigger-info {
+      padding: 4px;
+      cursor: pointer;
+      color: var(--crvena);
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="slider">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, totam amet ducimus provident eaque quos nihil odio sapiente assumenda sequi tempora libero consequuntur accusantium atque rem asperiores harum reprehenderit est. Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Ad, officiis nesciunt repellat ea autem ut atque ab voluptas error excepturi ipsam, natus dolorem blanditiis, commodi nisi animi quia vero dolorum.</div>
+  <i class="fa fa-chevron-right fa-2x" id="trigger"> </i>
+  <div id="slider-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, totam amet ducimus provident eaque quos nihil odio sapiente assumenda sequi tempora libero consequuntur accusantium atque rem asperiores harum reprehenderit est. Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Ad, officiis nesciunt repellat ea autem ut atque ab voluptas error excepturi ipsam, natus dolorem blanditiis, commodi nisi animi quia vero dolorum.</div>
+  <i class="fa fa-chevron-info fa-2x" id="trigger-info"> </i>
+  <div id="slider-home">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, totam amet ducimus provident eaque quos nihil odio sapiente assumenda sequi tempora libero consequuntur accusantium atque rem asperiores harum reprehenderit est. Lorem ipsum dolor sit
+    amet, consectetur adipisicing elit. Ad, officiis nesciunt repellat ea autem ut atque ab voluptas error excepturi ipsam, natus dolorem blanditiis, commodi nisi animi quia vero dolorum.</div>
+  <i class="fa fa-chevron-home fa-2x" id="trigger-home"> </i>
+
+
+
+  <script src="../../js/jquery.min.js" type="text/javascript"></script>
+  <script src="src/slidereveal.js" type="text/javascript"></script>
+  <script>
+    $(function($) {
+      var slider = $("#slider").slideReveal({
+        trigger: $("#trigger"),
+        position: "right",
+        speet: 400,
+        autoEscape: true,
+        // hide: function("#slider", "hover") {
+        //
+        // }
+      })
+      // var info = $("#slider-info").slideReveal({
+      //   trigger: $("#trigger-info")
+      // });
+      // var home = $("#slider-home").slideReveal({
+      //   trigger: $("#trigger-home")
+      // });
+    });
+  </script>
+</body>
+
+</html>

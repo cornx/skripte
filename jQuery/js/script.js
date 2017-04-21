@@ -61,23 +61,23 @@ $(document).ready(function() {
         console.log("ovo bi trebalo samo na index.html prikazat");
 
         kvadrat.append("<br> ovo je dodano preko skripte").attr({
-          "data-intro":"Ovaj element je dodan preko skripte",
-          "data-position":"bottom"
+            "data-intro": "Ovaj element je dodan preko skripte",
+            "data-position": "bottom"
         });
         kvadrat.after("<div class='dodatak'>također dodano preko skripte</div>");
         $(".dodatak").attr({
-          "data-intro":"i ovaj je također dodan preko skripte (script.js)",
-          "data-position":"bottom"
+            "data-intro": "i ovaj je također dodan preko skripte (script.js)",
+            "data-position": "bottom"
         });
         $(".dodatak").after("<div class='col-xs-2 kvadrat'>ja sam dodan ispred žutog</div>").css("background", "var(--zelena)");
         $(".kvadrat").attr({
-          "data-intro":"ovaj je dodan poslje .dodatak",
-          "data-position":"bottom"
+            "data-intro": "ovaj je dodan poslje .dodatak",
+            "data-position": "bottom"
         });
 
         // pokreću se upute
         $("#upute").on("click", function pokreniUpute() {
-          $('body').chardinJs('start');
+            $('body').chardinJs('start');
         });
     });
     // kod se aktivira samo na prva.html strnici
@@ -85,6 +85,7 @@ $(document).ready(function() {
         console.log("Sad sam na prvoj");
         kvadrat.css("background", "red");
 
+        // funkcija za provjeru postojanja elementa na stranici
         function provjeriPostojiLiElement(e) {
             if (e.length) {
                 console.log("element postoji");
@@ -99,7 +100,11 @@ $(document).ready(function() {
         }
         provjeriPara();
         kolikoJeElemenataNaStranici();
+
+        // dodavanje elementa preko priljepak funkcije
         priljepi();
+
+        // skrivanje elementa preko sakrijPriljepak funkcije
         sakrijPriljepak();
     });
     // kod koji se aktivira samo na druga.html
@@ -226,9 +231,9 @@ $(document).ready(function() {
 
     // sakrij priljepak koji se stvori na stranici pozivanjem gornje funkcije
     function sakrijPriljepak() {
-        var btn = $("<button class='btn btn-secondary'>Sakrij priljepka</button><"),
+        var btn = $("<button class='btn btn-outline-danger'>Sakrij priljepka</button><"),
             priljepak = $(".priljepak");
-        $("h1").after(btn);
+        $("h1").after(btn); // dodaj btn nakon h1 elementa (before dodaje btn ispred h1 elementa)
         btn.click(function() {
             if (priljepak.length > 0) {
                 priljepak.slideToggle(300);
@@ -261,7 +266,7 @@ $(document).ready(function() {
         console.log("Protocol: " + a.prop("protocol"));
         console.log("Hash: " + a.prop("hash"));
     }
-  //  rastaviLink()
+    //  rastaviLink()
 
 
 });

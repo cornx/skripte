@@ -214,4 +214,12 @@
     "primjer":"jQuery calendar plugin - data range",
     "link_projekt": "<a href='http://www.jqueryscript.net/time-clock/Multi-language-jQuery-Date-Range-Picker-Plugin.html'>link na skriptu</a>",
     "ostalo": "odabir kalendara - range"
+}, {
+    "primjer":"NopeJS",
+    "link_projekt": "<a href='http://www.cssscript.com/custom-cursor-behaviors-pure-javascript-control-user-cursor/'>link na skriptu</a> | <a href='https://github.com/javierbyte/control-user-cursor/'>GitHub projekt</a>",
+    "ostalo": "onemogućuje hover mišem preko elementa. Čista JavaScript"
+}, {
+    "primjer":"SlideReveal - aside slide panel",
+    "link_projekt": "<a href='https://nnattawat.github.io/slideReveal/'>SlideReveal</a> | <a href='http://www.jqueryscript.net/other/jQuery-Plugin-To-Show-A-Slide-in-Panel-On-Side-slidein-js.html'>jQuery SlideIn</a>(<a href='https://github.com/pete-rai/jquery-slidein'>GitHub</a>)",
+    "ostalo": "pokaži/sakrij sidebar klikom na ikonu/button - korisno za dodatne upute"
 }]

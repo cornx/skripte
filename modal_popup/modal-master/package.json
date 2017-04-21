@@ -1,0 +1,28 @@
+{
+  "name": "modal",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-richards/modal.git"
+  },
+  "author": "Sam Richards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/s-richards/modal/issues"
+  },
+  "homepage": "https://github.com/s-richards/modal#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-jshint": "^2.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jshint": "^2.9.2"
+  }
+}

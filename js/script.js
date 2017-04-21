@@ -116,11 +116,11 @@ $(document).ready(function() {
             title: "Bilješke",
             field: "ostalo",
             sortable: false,
+            formatter: "textarea", //  za prikaz u više redova ako je veći tekst
         }, ]
     });
 
     $("#moja-tablica").tabulator("setData", "data/data.json");
-
 
     // povezivanje json datoteke s popisom knjiga
     $("#tablica-knjiga").tabulator({
@@ -139,8 +139,30 @@ $(document).ready(function() {
             title: "Bilješke",
             field: "ostalo",
             sortable: false,
+            formatter: "textarea", //  za prikaz u više redova ako je veći tekst
         }, ]
     });
-
     $("#tablica-knjiga").tabulator("setData", "data/knjige.json");
+
+    // povezivanje json datoteke s popisom app-inventor.html
+    $("#linkoteka").tabulator({
+        fitColumns: true,
+        columns: [{
+            title: "Moj primjer",
+            field: "primjer",
+            sortable: true,
+            width: 250
+        }, {
+            title: "Link na projekt (GitHub)",
+            field: "link_projekt",
+            sortable: false,
+            width: 180
+        }, {
+            title: "Bilješke",
+            field: "ostalo",
+            sortable: false,
+            formatter: "textarea", //  za prikaz u više redova ako je veći tekst
+        }, ]
+    });
+    $("#linkoteka").tabulator("setData", "data/appInventor.json");
 });
