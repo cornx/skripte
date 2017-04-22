@@ -3,6 +3,15 @@
     "link_projekt": "<a href='http://puravidaapps.com/index.php'>link na stranicu</a>",
     "ostalo": "stranica sa masu tutorijala, snippets i extensions za AppInventor"
 }, {
+    "primjer": "Thunkable",
+    "link_projekt": "<a href='http://thunkable.com/'>link na stranicu</a> | <a href='http://app.thunkable.com/?locale=en#5712634609401856'>link na editor</a>",
+    "ostalo": "Drag&Drop editor, rađen na temelju AppInventora, ima nekoliko novih opcija"
+}, {
+}, {
+    "primjer": "New Mobile Development",
+    "link_projekt": "<a href='https://nmd-apps.jimdo.com/'>link na stranicu</a>",
+    "ostalo": "strnica sa resursima za AppInventor i Thunkable"
+}, {
     "primjer": "PaintPot - ppt (googleDrive)",
     "link_projekt": "<a href='https://docs.google.com/presentation/d/11nDt5nwbe51txdNdAlX5bO03XMMNXSdMUmaKSAQwgac/edit#slide=id.p'>link na prezentaciju</a>",
     "ostalo": "prezentacija-upute kako izradit jednostavnu aplikaciju (drawingCanvas) za crtanje + foto (camera)"
