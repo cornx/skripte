@@ -222,4 +222,12 @@
     "primjer":"SlideReveal - aside slide panel",
     "link_projekt": "<a href='https://nnattawat.github.io/slideReveal/'>SlideReveal</a> | <a href='http://www.jqueryscript.net/other/jQuery-Plugin-To-Show-A-Slide-in-Panel-On-Side-slidein-js.html'>jQuery SlideIn</a>(<a href='https://github.com/pete-rai/jquery-slidein'>GitHub</a>)",
     "ostalo": "pokaži/sakrij sidebar klikom na ikonu/button - korisno za dodatne upute"
+}, {
+    "primjer":"Frappé Charts",
+    "link_projekt": "<a href='https://frappe.github.io/charts/'>GitHub</a>",
+    "ostalo": "jednostavni JavaScript grafikoni, kombinacija više grafikona u jednom"
+}, {
+    "primjer":"Multilevel Q&A Accordion Plugin - jQuery",
+    "link_projekt": "<a href='http://www.jqueryscript.net/accordion/Multilevel-Q-A-Accordion-Plugin-jQuery-accordion-js.html'>link na plugin</a>",
+    "ostalo": "FAQ acordion - multilevel - korisno za prikaz više pitanja u manje prostora"
 }]

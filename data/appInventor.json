@@ -26,4 +26,16 @@
     "primjer": "AppInvntor Concept Cards",
     "link_projekt": "<a href='http://explore.appinventor.mit.edu/resources/beginner-app-inventor-concept-cards'>link na stranicu</a> | <a href='http://explore.appinventor.mit.edu/sites/all/files/ConceptCards/ai2/AppInventorMakerCards.pdf'>još jedne kartice (PDF)</a>",
     "ostalo": "PDF-ovi s kratkim objašnjenjima AppInventor koncepata - obavezno prouči"
+}, {
+    "primjer": "AppInvntor + FusionTables CRUD",
+    "link_projekt": "<a href='https://www.youtube.com/watch?v=YTaI4bVL1zI'>link na video</a>",
+    "ostalo": "CRUD aplikacija s FusionTables - video"
+}, {
+    "primjer": "100 best AppInvntor tutorials",
+    "link_projekt": "<a href='http://meta-guide.com/videography/100-best-appinventor-videos'>link na stranicu</a>",
+    "ostalo": "lista tutorijala s raznim temama"
+}, {
+    "primjer": "App Inventor Tutorials",
+    "link_projekt": "<a href='http://www.imagnity.com/tutorial-index/'>link na stranicu</a>",
+    "ostalo": "još jedna stranica s tutorijalima"
 }]
